@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloudian</title>
-    <link>//localhost:1313/</link>
+    <link>//localhost:1313/posts/post1/</link>
     <description>Recent content on Cloudian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Connie</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/post1/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
