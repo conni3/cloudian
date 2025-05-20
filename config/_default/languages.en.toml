@@ -17,7 +17,5 @@ title = "Cloudian"
   headline = "A place to document what I learned and what I think"
   bio = "Optimistic yet lazy (working on that)"
    links = [
-     { link = "https://nunocoracao.github.io/blowfish/" },
-     { github = "https://github.com/nunocoracao/blowfish" },
-     { x-twitter = "https://twitter.com/burufugu" }
+     { github = "https://github.com/conni3" },
    ]
