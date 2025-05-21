@@ -31,10 +31,11 @@ mainSections = ["posts"]
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
-  showMoreLinkDest = "/blowfish_artist/posts"
+  showMoreLinkDest = "/posts"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
+  mainSections = ["posts"]
 
 [article]
   showDate = true
@@ -55,7 +56,7 @@ mainSections = ["posts"]
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showTaxonomies = false 
+  showTaxonomies = true
   showAuthorsBadges = false 
   showWordCount = true
   showSummary = true
