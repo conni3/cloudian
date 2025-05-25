@@ -7,7 +7,7 @@
     "env": {
       "HUGO_VERSION": "0.110.0",
       "HUGO_ENV": "production",
-      "HUGO_BASEURL": "https://your-deployment-url.vercel.app"
+      "HUGO_BASEURL": "https://cloudian-sand.vercel.app/"
     }
   },
   "cleanUrls": true

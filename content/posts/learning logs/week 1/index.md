@@ -7,9 +7,6 @@ tags:
   - learning_log
 showHeadingAnchors: true
 ---
-This was my first day of the internship. We started the day with a meeting where all the CALAS members gathered and some were sharing their progress on their current research. I was able to grasp the general meaning but couldn't understand the finer details. 
-
-After that, I introduced myself to the members there. It was nice meeting them. 
 ## Week 1 Learning Log (May 19–23, 2025)
 
 ### 1. Objectives
