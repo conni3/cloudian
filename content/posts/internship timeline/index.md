@@ -11,15 +11,20 @@ showSummary: true
 ---
 ## Motivation for the internship:
 
-In the long term future, I really want to become a researcher in the future. It might come from trying to be enough or even feel better. But I really do want to become someone I can be proud of and someone who grows everyday. 
+I am passionate about forging a career in research and innovation within computer engineering. This internship offers a unique opportunity to translate my theoretical knowledge into hands-on expertise by designing and building a processor from the ground up. Though I’ve enjoyed studying digital logic circuits, I’ve noticed that much of what I learned has faded over time—and I’m determined to refresh and deepen those fundamentals.
 
-This might be a bit of a rocky road and I keep hearing that from a lot of people and sometimes I get scared, but there are also people who support me. So I am willing to give it a try.
+Beyond simply revisiting FPGA workflows, I’m excited to explore computer architecture in depth—an area I haven’t yet had formal coursework in, despite it being central to my degree. By guiding a design through every stage—from HDL simulation to on-board testing—I aim to:
 
-Back to the topic of this internship specifically, the main goal is that I build a processor.
+- Master FPGA toolchains and digital-logic design
+    
+- Build a solid understanding of RISC-V instruction set and datapath organization
+    
+- Bridge the gap between abstract concepts and real hardware implementation
+    
+- Cultivate the confidence and skills I need to grow each day as a researcher
+    
 
-Here is what I am hoping to gain from doing that:
-- Although I had the digital logic circuit class, I have noticed that I have forgotten a lot of the materials in a little over semester. This made me quite sad. All in all, will review FPGAs.
-- Would like to learn computer architecture. I haven't taken a computer architecture or organization course yet (core course in the degree but an elective, which is very odd since I am doing a computer engineering degree)
+Ultimately, I believe this hands-on experience will be the cornerstone of my journey toward becoming the kind of engineer and researcher I aspire to be.
 
 ---
 ## Timeline

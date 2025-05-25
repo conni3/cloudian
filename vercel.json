@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "hugo",
+  "buildCommand": "hugo --gc --minify",
+  "outputDirectory": "public",
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.110.0",
+      "HUGO_ENV": "production",
+      "HUGO_BASEURL": "https://your-deployment-url.vercel.app"
+    }
+  },
+  "cleanUrls": true
+}
