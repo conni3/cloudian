@@ -2,8 +2,8 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
-theme = "blowfish"
-# baseURL = "https://your_domain.com/"
+theme = "github.com/nunocoracao/blowfish/v2"
+baseURL = "https://cloudian-sand.vercel.app/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true

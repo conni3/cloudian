@@ -3,65 +3,65 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:1313/tags/calas/</loc>
+    <loc>http://localhost:56447/tags/calas/</loc>
     <lastmod>2025-05-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:56447/</loc>
     <lastmod>2025-05-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/internship-timeline/</loc>
+    <loc>http://localhost:56447/posts/internship-timeline/</loc>
     <lastmod>2025-05-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/tags/learning_log/</loc>
+    <loc>http://localhost:56447/tags/learning_log/</loc>
     <lastmod>2025-05-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:56447/tags/</loc>
     <lastmod>2025-05-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/learning-logs/</loc>
+    <loc>http://localhost:56447/posts/learning-logs/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/learning-logs/week-1/</loc>
+    <loc>http://localhost:56447/posts/learning-logs/week-1/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>http://localhost:56447/posts/</loc>
     <lastmod>2022-06-13T20:55:37+01:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/authors/</loc>
+    <loc>http://localhost:56447/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:56447/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/series/</loc>
+    <loc>http://localhost:56447/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
