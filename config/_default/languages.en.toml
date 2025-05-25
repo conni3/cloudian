@@ -15,7 +15,8 @@ title = "Cloudian"
 [params.author]
   name = "Connie"
   headline = "A place to document what I learned and what I think"
-  bio = "Optimistic yet lazy (working on that)"
+  bio = "Optimistic undergrad"
+  image = "profile.png"
    links = [
      { github = "https://github.com/conni3" },
    ]

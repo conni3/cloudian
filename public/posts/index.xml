@@ -9,5 +9,15 @@
     <copyright>© 2025 Connie</copyright>
     <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Internship Timeline</title>
+      <link>//localhost:1313/posts/internship-timeline/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/internship-timeline/</guid>
+      <description>Motivation for the internship: #In the long term future, I really want to become a researcher in the future. It might come from trying to be enough or even feel better.</description>
+      
+    </item>
+    
   </channel>
 </rss>
