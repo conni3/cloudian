@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learning_log on Cloudian</title>
-    <link>http://localhost:56447/tags/learning_log/</link>
+    <link>http://localhost:56555/tags/learning_log/</link>
     <description>Recent content in Learning_log on Cloudian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Connie</copyright>
-    <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:56447/tags/learning_log/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:56555/tags/learning_log/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Internship Timeline</title>
-      <link>http://localhost:56447/posts/internship-timeline/</link>
+      <link>http://localhost:56555/posts/internship-timeline/</link>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56447/posts/internship-timeline/</guid>
+      <guid>http://localhost:56555/posts/internship-timeline/</guid>
       <description>Motivation for the internship: # I am passionate about forging a career in research and innovation within computer engineering. This internship offers a unique opportunity to translate my theoretical knowledge into hands-on expertise by designing and building a processor from the ground up.</description>
       
     </item>
     
     <item>
       <title>Week 1</title>
-      <link>http://localhost:56447/posts/learning-logs/week-1/</link>
+      <link>http://localhost:56555/posts/learning-logs/week-1/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:56447/posts/learning-logs/week-1/</guid>
+      <guid>http://localhost:56555/posts/learning-logs/week-1/</guid>
       <description>This was my first day of the internship. We started the day with a meeting where all the CALAS members gathered and some were sharing their progress on their current research.</description>
       
     </item>
