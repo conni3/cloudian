@@ -4,10 +4,11 @@ date: 2025-05-20
 tags:
   - learning_log
   - calas
-showDate: true
-showTaxonomies: true
+showDate: false
+showTaxonomies: false
 showTableOfContents: true
-showSummary: true
+showSummary: false
+showHeadingAnchors: true
 ---
 ## Motivation for the internship:
 
