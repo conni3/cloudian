@@ -1,13 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "hugo",
-  "buildCommand": "hugo --gc --minify",
+  "buildCommand": "hugo --environment production --gc --minify",
   "outputDirectory": "public",
   "build": {
     "env": {
-      "HUGO_VERSION": "0.110.0",
-      "HUGO_ENV": "production",
-      "HUGO_BASEURL": "https://cloudian-sand.vercel.app/"
+      "HUGO_VERSION":      "0.110.0",
+      "HUGO_ENVIRONMENT":  "production",
+      "HUGO_BASEURL":      "https://cloudian-sand.vercel.app/"
     }
   },
   "cleanUrls": true

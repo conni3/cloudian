@@ -7,7 +7,7 @@ tags:
 showDate: false
 showTaxonomies: false
 showTableOfContents: true
-showSummary: false
+showSummary: true
 showHeadingAnchors: true
 ---
 ## Motivation for the internship:

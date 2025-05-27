@@ -5,6 +5,7 @@ showHeadingAnchors: true
 tags:
   - calas
   - theory
+draft: true
 ---
 
 ![14-A-simple-6-transistor-SRAM-cell](assets/posts/14-A-simple-6-transistor-SRAM-cell.png)

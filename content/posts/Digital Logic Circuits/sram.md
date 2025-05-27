@@ -5,6 +5,7 @@ tags:
   - theory
 showTableOfContents: true
 showHeadingAnchors: true
+draft: true
 ---
 Fills 2 needs:
 1. direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/DRAM|DRAM]]s
