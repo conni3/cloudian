@@ -10,21 +10,29 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+
 [[main]]
-  name = "Posts"
-  pageRef = "posts"
-  weight = 10
+  name = "Computer organization"
+  pageRef = "posts/Computer organization"
+  weight = 20
+  parent = "Posts"
+
+[[main]]
+  name = "Digital Logic Circuits"
+  pageRef = "posts/Digital Logic Circuits"
+  weight = 20
+  parent = "Posts"
 
 [[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 20
+  weight = 10
 
 [[main]]
   identifier = "github"
   pre = "link"
   url = "https://github.com/conni3/"
-  weight = 40
+  weight = 10
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

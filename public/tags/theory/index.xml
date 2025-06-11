@@ -7,7 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Connie</copyright>
-    <atom:link href="http://localhost:1313/tags/theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Part 1: Foundations &amp; “Eight Great Ideas”</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-1/</guid>
+      <description>Preface # The preface starts with a motivation to read this book - professionals of every computing specialty should understand both hardware and software. This point was emphasized when the authors mentioned the switch from uniprocessor to multicore microprocessors (which will be emphasized many more times throughout Chapter 1).</description>
+      
+    </item>
+    
+    <item>
+      <title>Part 2: Inside the Machine – Abstraction Layers &amp; Technologies</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-2/</guid>
+      <description>Below Your Program # For computers to run complex applications, there needs to be some sort of translation. Computers can only run simple operations; if we were to write the program for example for this website (although a simple application) - we need so much effort and time.</description>
+      
+    </item>
+    
+    <item>
+      <title>Part 3: Performance, Power &amp; the “Sea Change”</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-3/</guid>
+      <description>Performance # When you are choosing a computer, how should you choose? Is it the computer that performs operations the fastest, one that does the most work, or the one that consumes least power?</description>
+      
+    </item>
+    
+    <item>
+      <title>Part 4: Real-World Examples &amp; Wrap-Up</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-4/</guid>
+      <description>Benchmarking the Intel Core i7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other? Whichever computer that completes the task faster is the better computer.</description>
+      
+    </item>
+    
+    <item>
+      <title>Chapter 1 - Computer Abstractions and Technology</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/</guid>
+      <description>This is the first chapter of the book. I divided my thoughts and summary into four sections:
+Foundations &amp;amp; The Eight Great Ideas
+Covers the motivation behind studying computer architecture, the shift from uniprocessor to multicore systems, and introduces eight timeless design principles that shape computing systems—such as abstraction, pipelining, parallelism, and memory hierarchy.</description>
+      
+    </item>
+    
+    <item>
+      <title>Computer Organization and Design RISC-V edition</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/</guid>
+      <description>As part of my internship, I decided to read &amp;ldquo;Computer Organization and Design RISC-V edition&amp;rdquo; by David A. Patterson and John L. Hennessy by recommendation from my supervisor Sanka.
+I have written a series of articles as a reference for later to quickly remind myself of the ideas discussed and also, express my thoughts for the book.</description>
+      
+    </item>
     
     <item>
       <title>Bi-stable Flip Flop</title>
@@ -16,6 +79,16 @@
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/bistable-flip-flop/</guid>
       <description>At the heart of an SRAM cell lies a bistable flip-flop, which is a circuit capable of holding one of two stable states: logic &amp;lsquo;0&amp;rsquo; or logic &amp;lsquo;1&amp;rsquo;. This flip-flop is typically constructed using two cross-coupled inverters</description>
+      
+    </item>
+    
+    <item>
+      <title>Configuration Logic Block</title>
+      <link>http://localhost:1313/posts/digital-logic-circuits/clb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/digital-logic-circuits/clb/</guid>
+      <description>The architecture of FPGAs rely heavily on Configuration Logic Blocks (CLBs). When you look at it, it is essentially a matrix of these CLBs, wired together by the device&amp;rsquo;s programmable interconnects.</description>
       
     </item>
     
@@ -30,13 +103,23 @@
     </item>
     
     <item>
+      <title>LUT</title>
+      <link>http://localhost:1313/posts/digital-logic-circuits/luts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/digital-logic-circuits/luts/</guid>
+      <description>Definition # Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs. Then depending on the input, FPGA looks up from the table and output that result.</description>
+      
+    </item>
+    
+    <item>
       <title>SRAM</title>
       <link>http://localhost:1313/posts/digital-logic-circuits/sram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/sram/</guid>
-      <description>Fills 2 needs:
-direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/DRAM|DRAM]]s replace DRAMs in systems with very low power consumption In 1st use, SRAM serves as cache memory, interfacing between DRAMs and the CPU !</description>
+      <description>SRAMs are static memory. They are implemented using 6 transistors usually and because of that more expensive. Fills 2 needs:
+direct interface with CPU at speeds not attainable by DRAMs replace DRAMs in systems with very low power consumption In 1st use, SRAM serves as cache memory, interfacing between DRAMs and the CPU For 2nd use, SRAM is used instead of DRAM.</description>
       
     </item>
     

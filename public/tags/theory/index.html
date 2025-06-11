@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
   data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <script>let FF_FOUC_FIX;</script>
+  
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[','\\]'], ['$$','$$']],
+      inlineMath: [['\\(','\\)'], ['$', '$']]
+    },
+    loader: { load: ['ui/safe'] }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -28,8 +43,11 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.a1fc928a0e3f6274e91d5456e2c57f2f4b57d0fe2a8270e82fdfe70647cfd810c5c3677b5a33f1a3377eaa984a1bbe55bb0aecd03e2ef0705eddd3b09dc4b606.css"
-    integrity="sha512-ofySig4/YnTpHVRW4sV/L0tX0P4qgnDoL9/nBkfP2BDFw2d7WjPxozd&#43;qphKG75Vuwrs0D4u8HBe3dOwncS2Bg==" />
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.9acdb38e668799780c04099578aebc709bb8c5c97d4297f308683ede67e4a549a2d62cced6fa69b251c99a07a379901710925775f496fb813f6c0b1d7bc246f8.css"
+    integrity="sha512-ms2zjmaHmXgMBAmVeK68cJu4xcl9QpfzCGg&#43;3mfkpUmi1izO1vppslHJmgejeZAXEJJXdfSW&#43;4E/bAsde8JG&#43;A==" />
+      
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -48,8 +66,17 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.65b5de43825ad54a420102c9ddccece1f1015665fe76e5b399ba259e1de29f6c83ac1b3cf77beed3d29e26604dfebf561a8e1db523cb6add0d6acccc9e8f1307.js"
-    integrity="sha512-ZbXeQ4Ja1UpCAQLJ3czs4fEBVmX&#43;duWzmbolnh3in2yDrBs893vu09KeJmBN/r9WGo4dtSPLat0NaszMno8TBw==" data-copy="Copy" data-copied="Copied"></script>
+<script
+  defer
+  type="text/javascript"
+  id="script-bundle"
+  src="/js/main.bundle.min.65b5de43825ad54a420102c9ddccece1f1015665fe76e5b399ba259e1de29f6c83ac1b3cf77beed3d29e26604dfebf561a8e1db523cb6add0d6acccc9e8f1307.js"
+  integrity="sha512-ZbXeQ4Ja1UpCAQLJ3czs4fEBVmX&#43;duWzmbolnh3in2yDrBs893vu09KeJmBN/r9WGo4dtSPLat0NaszMno8TBw=="
+  data-copy='Copy'
+  data-copied='Copied'
+></script>
+
+
   
   
   
@@ -157,28 +184,6 @@
             
             
             
-  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="">
-        Posts
-    </p>
-</a>
-
-
-
-            
-            
-  <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="">
-        Tags
-    </p>
-</a>
-
-
-
-            
-            
   <a href="https://github.com/conni3/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span >
@@ -196,6 +201,72 @@
         
     </p>
 </a>
+
+
+
+            
+            
+  <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Tags
+    </p>
+</a>
+
+
+
+            
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    
+    <a  class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
+      Posts
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/posts/computer-organization/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            Computer organization
+          </p>
+        </a>
+        
+        <a href="/posts/digital-logic-circuits/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            Digital Logic Circuits
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -334,10 +405,21 @@
 
                     
   <li class="mt-1">
-    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="https://github.com/conni3/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <div >
+            
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+
+  </span>
+
+
+        </div>
         
         <p class="text-bg font-bg" title="">
-            Posts
+            
         </p>
     </a>
 </li>
@@ -362,26 +444,56 @@
 
                     
 
-                    
+                     
   <li class="mt-1">
-    <a href="https://github.com/conni3/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="" class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <div >
+        <p class="text-bg font-bg" title="">
+            Posts
+        </p>
+        <span>
             
 
   <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M172.5 131.1C228.1 75.51 320.5 75.51 376.1 131.1C426.1 181.1 433.5 260.8 392.4 318.3L391.3 319.9C381 334.2 361 337.6 346.7 327.3C332.3 317 328.9 297 339.2 282.7L340.3 281.1C363.2 249 359.6 205.1 331.7 177.2C300.3 145.8 249.2 145.8 217.7 177.2L105.5 289.5C73.99 320.1 73.99 372 105.5 403.5C133.3 431.4 177.3 435 209.3 412.1L210.9 410.1C225.3 400.7 245.3 404 255.5 418.4C265.8 432.8 262.5 452.8 248.1 463.1L246.5 464.2C188.1 505.3 110.2 498.7 60.21 448.8C3.741 392.3 3.741 300.7 60.21 244.3L172.5 131.1zM467.5 380C411 436.5 319.5 436.5 263 380C213 330 206.5 251.2 247.6 193.7L248.7 192.1C258.1 177.8 278.1 174.4 293.3 184.7C307.7 194.1 311.1 214.1 300.8 229.3L299.7 230.9C276.8 262.1 280.4 306.9 308.3 334.8C339.7 366.2 390.8 366.2 422.3 334.8L534.5 222.5C566 191 566 139.1 534.5 108.5C506.7 80.63 462.7 76.99 430.7 99.9L429.1 101C414.7 111.3 394.7 107.1 384.5 93.58C374.2 79.2 377.5 59.21 391.9 48.94L393.5 47.82C451 6.731 529.8 13.25 579.8 63.24C636.3 119.7 636.3 211.3 579.8 267.7L467.5 380z"/></svg>
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
 
   </span>
 
 
-        </div>
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/posts/computer-organization/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg" title="">
-            
+        <p class="text-sm font-small" title="">
+            Computer organization
         </p>
     </a>
 </li>
+
+<li class="mt-1">
+    <a href="/posts/digital-logic-circuits/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            Digital Logic Circuits
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
 
 
 
@@ -482,12 +594,159 @@
 
 
 
-  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/digital-logic-circuits/sram/">
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/">
     <div class=" p-4">
       <div class="items-center text-left text-xl font-semibold">
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/digital-logic-circuits/sram/">SRAM</div>
+          href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/">Chapter 1 - Computer Abstractions and Technology</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>181 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/computer_architecture/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Computer_architecture
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/calas/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Calas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/theory/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Theory
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/risc-v/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Risc-V
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        This is the first chapter of the book. I divided my thoughts and summary into four sections:
+Foundations &amp;amp; The Eight Great Ideas
+Covers the motivation behind studying computer architecture, the shift from uniprocessor to multicore systems, and introduces eight timeless design principles that shape computing systems—such as abstraction, pipelining, parallelism, and memory hierarchy.
+      </div>
+      
+    </div>
+  </a>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/computer-organization/notes/patterson--hennessy-2020/">
+    <div class=" p-4">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/computer-organization/notes/patterson--hennessy-2020/">Computer Organization and Design RISC-V edition</div>
         
         
         <div class=" ltr:ml-2 rtl:mr-2">
@@ -540,7 +799,156 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="0001-01-01T00:00:00&#43;00:00">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span>253 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  <time datetime="2025-05-31T00:00:00&#43;00:00">31 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span>57 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/calas/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Calas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/computer_architecture/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Computer_architecture
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/theory/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Theory
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/risc-v/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Risc-V
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        As part of my internship, I decided to read &amp;ldquo;Computer Organization and Design RISC-V edition&amp;rdquo; by David A. Patterson and John L. Hennessy by recommendation from my supervisor Sanka.
+I have written a series of articles as a reference for later to quickly remind myself of the ideas discussed and also, express my thoughts for the book.
+      </div>
+      
+    </div>
+  </a>
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/digital-logic-circuits/sram/">
+    <div class=" p-4">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/digital-logic-circuits/sram/">SRAM</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>258 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
@@ -580,6 +988,14 @@
 </span>
   </span>
   
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/digital_logic/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Digital_logic
+  </span>
+</span>
+  </span>
+  
   
   
   
@@ -591,8 +1007,145 @@
       </div>
       
       <div class="py-1 max-w-fit prose dark:prose-invert">
-        Fills 2 needs:
-direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/DRAM|DRAM]]s replace DRAMs in systems with very low power consumption In 1st use, SRAM serves as cache memory, interfacing between DRAMs and the CPU !
+        SRAMs are static memory. They are implemented using 6 transistors usually and because of that more expensive. Fills 2 needs:
+direct interface with CPU at speeds not attainable by DRAMs replace DRAMs in systems with very low power consumption In 1st use, SRAM serves as cache memory, interfacing between DRAMs and the CPU For 2nd use, SRAM is used instead of DRAM.
+      </div>
+      
+    </div>
+  </a>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/digital-logic-circuits/luts/">
+    <div class=" p-4">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/digital-logic-circuits/luts/">LUT</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>317 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/calas/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Calas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/theory/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Theory
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/digital_logic/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Digital_logic
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Definition # Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs. Then depending on the input, FPGA looks up from the table and output that result.
       </div>
       
     </div>
@@ -630,6 +1183,14 @@ direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/D
           href="/posts/digital-logic-circuits/">Digital Logic Circuits</div>
         
         
+        <div class=" ltr:ml-2 rtl:mr-2">
+          <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Draft
+  </span>
+</span>
+        </div>
+        
         
       </div>
       <div class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -644,8 +1205,6 @@ direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/D
 
 
 
-
-  
 
 
 
@@ -672,7 +1231,7 @@ direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/D
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="0001-01-01T00:00:00&#43;00:00">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span>25 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <span>25 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
   
 
   
@@ -753,12 +1312,12 @@ direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/D
 
 
 
-  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/digital-logic-circuits/bistable-flip-flop/">
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/digital-logic-circuits/clb/">
     <div class=" p-4">
       <div class="items-center text-left text-xl font-semibold">
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/digital-logic-circuits/bistable-flip-flop/">Bi-stable Flip Flop</div>
+          href="/posts/digital-logic-circuits/clb/">Configuration Logic Block</div>
         
         
         
@@ -775,8 +1334,6 @@ direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/D
 
 
 
-
-  
 
 
 
@@ -803,7 +1360,7 @@ direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/D
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="0001-01-01T00:00:00&#43;00:00">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span>330 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  <span>33 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
   
 
   
@@ -843,6 +1400,151 @@ direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/D
 </span>
   </span>
   
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/digital_logic/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Digital_logic
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        The architecture of FPGAs rely heavily on Configuration Logic Blocks (CLBs). When you look at it, it is essentially a matrix of these CLBs, wired together by the device&amp;rsquo;s programmable interconnects.
+      </div>
+      
+    </div>
+  </a>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/digital-logic-circuits/bistable-flip-flop/">
+    <div class=" p-4">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/digital-logic-circuits/bistable-flip-flop/">Bi-stable Flip Flop</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>345 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/calas/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Calas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/theory/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Theory
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/digital_logic/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Digital_logic
+  </span>
+</span>
+  </span>
+  
   
   
   
@@ -855,6 +1557,610 @@ direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/D
       
       <div class="py-1 max-w-fit prose dark:prose-invert">
         At the heart of an SRAM cell lies a bistable flip-flop, which is a circuit capable of holding one of two stable states: logic &amp;lsquo;0&amp;rsquo; or logic &amp;lsquo;1&amp;rsquo;. This flip-flop is typically constructed using two cross-coupled inverters
+      </div>
+      
+    </div>
+  </a>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-4/">
+    <div class=" p-4">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-4/">Part 4: Real-World Examples & Wrap-Up</div>
+        
+        
+        <div class=" ltr:ml-2 rtl:mr-2">
+          <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Draft
+  </span>
+</span>
+        </div>
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>500 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/calas/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Calas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/computer_architecture/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Computer_architecture
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/risc-v/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Risc-V
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/theory/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Theory
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Benchmarking the Intel Core i7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other? Whichever computer that completes the task faster is the better computer.
+      </div>
+      
+    </div>
+  </a>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-3/">
+    <div class=" p-4">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-3/">Part 3: Performance, Power & the “Sea Change”</div>
+        
+        
+        <div class=" ltr:ml-2 rtl:mr-2">
+          <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Draft
+  </span>
+</span>
+        </div>
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>1960 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/calas/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Calas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/computer_architecture/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Computer_architecture
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/theory/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Theory
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/risc-v/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Risc-V
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Performance # When you are choosing a computer, how should you choose? Is it the computer that performs operations the fastest, one that does the most work, or the one that consumes least power?
+      </div>
+      
+    </div>
+  </a>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-2/">
+    <div class=" p-4">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-2/">Part 2: Inside the Machine – Abstraction Layers & Technologies</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>1161 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/calas/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Calas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/computer_architecture/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Computer_architecture
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/risc-v/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Risc-V
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/theory/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Theory
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Below Your Program # For computers to run complex applications, there needs to be some sort of translation. Computers can only run simple operations; if we were to write the program for example for this website (although a simple application) - we need so much effort and time.
+      </div>
+      
+    </div>
+  </a>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap md:flex-nowrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md overflow-hidden" href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-1/">
+    <div class=" p-4">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-1/">Part 1: Foundations & “Eight Great Ideas”</div>
+        
+        
+        <div class=" ltr:ml-2 rtl:mr-2">
+          <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Draft
+  </span>
+</span>
+        </div>
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>839 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/computer_architecture/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Computer_architecture
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/calas/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Calas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/theory/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Theory
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/risc-v/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Risc-V
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Preface # The preface starts with a motivation to read this book - professionals of every computing specialty should understand both hardware and software. This point was emphasized when the authors mentioned the switch from uniprocessor to multicore microprocessors (which will be emphasized many more times throughout Chapter 1).
       </div>
       
     </div>

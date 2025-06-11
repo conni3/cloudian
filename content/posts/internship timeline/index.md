@@ -12,7 +12,9 @@ showHeadingAnchors: true
 ---
 ## Motivation for the internship:
 
-I am passionate about forging a career in research and innovation within computer engineering. This internship offers a unique opportunity to translate my theoretical knowledge into hands-on expertise by designing and building a processor from the ground up. Though I’ve enjoyed studying digital logic circuits, I’ve noticed that much of what I learned has faded over time—and I’m determined to refresh and deepen those fundamentals.
+I am passionate about forging a career in research and innovation within computer engineering. This internship offers a unique opportunity to translate my theoretical knowledge into hands-on expertise by designing and building a processor from the ground up. 
+<!--more-->
+Though I’ve enjoyed studying digital logic circuits, I’ve noticed that much of what I learned has faded over time—and I’m determined to refresh and deepen those fundamentals.
 
 Beyond simply revisiting FPGA workflows, I’m excited to explore computer architecture in depth—an area I haven’t yet had formal coursework in, despite it being central to my degree. By guiding a design through every stage—from HDL simulation to on-board testing—I aim to:
 

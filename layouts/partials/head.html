@@ -1,5 +1,6 @@
 <head>
-      <script>let FF_FOUC_FIX;</script>
+  <script>let FF_FOUC_FIX;</script>
+  {{ partialCached "math.html" . }}
 
   <meta charset="utf-8" />
   {{ with .Site.Language.Params.htmlCode | default .Site.LanguageCode }}
@@ -74,9 +75,17 @@
   {{ if $assets.Get "js" }}
   {{ $bundleJS := $assets.Get "js" | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint
   "sha512" }}
-  <script defer type="text/javascript" id="script-bundle" src="{{ $bundleJS.RelPermalink }}"
-    integrity="{{ $bundleJS.Data.Integrity }}" data-copy="{{ i18n "code.copy" }}" data-copied="{{ i18n "code.copied"
-    }}"></script>
+<script
+  defer
+  type="text/javascript"
+  id="script-bundle"
+  src="{{ $bundleJS.RelPermalink }}"
+  integrity="{{ $bundleJS.Data.Integrity }}"
+  data-copy='{{ i18n "code.copy" }}'
+  data-copied='{{ i18n "code.copied" }}'
+></script>
+
+
   {{ end }}
   {{ if not .Site.Params.disableImageZoom | default true }}
   {{ $zoomJS := resources.Get "lib/zoom/zoom.min.js" | resources.Fingerprint "sha512" }}
@@ -141,13 +150,13 @@
   <script>
 
     const firebaseConfig = {
-      apiKey: {{ $.Site.Params.firebase.apiKey }},
-      authDomain: {{ $.Site.Params.firebase.apiKey }},
-      projectId: {{ $.Site.Params.firebase.projectId }},
-      storageBucket: {{ $.Site.Params.firebase.storageBucket }},
-      messagingSenderId: {{ $.Site.Params.firebase.messagingSenderId }},
-      appId: {{ $.Site.Params.firebase.appId }},
-      measurementId: {{ $.Site.Params.firebase.measurementId }}
+      apiKey: "{{ $.Site.Params.firebase.apiKey }}",
+      authDomain: "{{ $.Site.Params.firebase.apiKey }}",
+      projectId: "{{ $.Site.Params.firebase.projectId }}",
+      storageBucket: "{{ $.Site.Params.firebase.storageBucket }}",
+      messagingSenderId: "{{ $.Site.Params.firebase.messagingSenderId }}",
+      appId: "{{ $.Site.Params.firebase.appId }}",
+      measurementId: "{{ $.Site.Params.firebase.measurementId }}"
     };
 
     var app = firebase.initializeApp(firebaseConfig);
@@ -155,6 +164,10 @@
     var auth = firebase.auth();
 
   </script>
+
+
+
+
   {{ end }}
   {{ end }}
 </head>

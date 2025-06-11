@@ -20,13 +20,33 @@
     </item>
     
     <item>
+      <title>Configuration Logic Block</title>
+      <link>http://localhost:1313/posts/digital-logic-circuits/clb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/digital-logic-circuits/clb/</guid>
+      <description>The architecture of FPGAs rely heavily on Configuration Logic Blocks (CLBs). When you look at it, it is essentially a matrix of these CLBs, wired together by the device&amp;rsquo;s programmable interconnects.</description>
+      
+    </item>
+    
+    <item>
+      <title>LUT</title>
+      <link>http://localhost:1313/posts/digital-logic-circuits/luts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/digital-logic-circuits/luts/</guid>
+      <description>Definition # Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs. Then depending on the input, FPGA looks up from the table and output that result.</description>
+      
+    </item>
+    
+    <item>
       <title>SRAM</title>
       <link>http://localhost:1313/posts/digital-logic-circuits/sram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/sram/</guid>
-      <description>Fills 2 needs:
-direct interface with CPU at speeds not attainable by [[Content/CALAS/Theories/DRAM|DRAM]]s replace DRAMs in systems with very low power consumption In 1st use, SRAM serves as cache memory, interfacing between DRAMs and the CPU !</description>
+      <description>SRAMs are static memory. They are implemented using 6 transistors usually and because of that more expensive. Fills 2 needs:
+direct interface with CPU at speeds not attainable by DRAMs replace DRAMs in systems with very low power consumption In 1st use, SRAM serves as cache memory, interfacing between DRAMs and the CPU For 2nd use, SRAM is used instead of DRAM.</description>
       
     </item>
     

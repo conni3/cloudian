@@ -11,6 +11,8 @@ enableCodeCopy          = true
 
 [params]
   mainSections         = ["posts"]
+  math = true
+
 
 [header]
   layout              = "basic"
@@ -25,7 +27,7 @@ enableCodeCopy          = true
   layout              = "background"
   homepageImage       = "cover.png"
   showRecent          = true
-  showRecentItems     = 3
+  showRecentItems     = 9
   showMoreLink        = true
   showMoreLinkDest    = "/posts"
   cardView            = true
@@ -35,7 +37,7 @@ enableCodeCopy          = true
 [article]
   showHero            = true
   heroStyle           = "background"
-  showDate            = true
+  showDate            = false
   showDateUpdated     = false
   showAuthor          = true
   showBreadcrumbs     = true
@@ -49,12 +51,15 @@ enableCodeCopy          = true
   showSummary         = true
 
 [list]
-  layout                   = "background"
-  layoutBackgroundHeaderSpace = false
+  showHero                 = true
+  heroStyle                = "background"
+  layoutBackgroundBlur     = true
+  layoutBackgroundHeaderSpace = true  
   showBreadcrumbs          = true
   showSummary              = true
-  showTableOfContents      = false
+  showTableOfContents      = true
   showCards                = true
-  groupByYear              = true
+  groupByYear              = false
   cardView                 = true
   cardViewScreenWidth      = false
+
