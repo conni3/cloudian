@@ -1,6 +1,6 @@
 ---
 title: Computer Organization and Design RISC-V edition
-draft: true
+draft: false
 showDate: true
 date: 2025-05-31
 tags:

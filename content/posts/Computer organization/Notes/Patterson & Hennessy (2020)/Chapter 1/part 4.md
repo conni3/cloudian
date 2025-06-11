@@ -6,7 +6,7 @@ tags:
   - risc-v
   - theory
 weight: "4"
-draft: true
+draft: false
 ---
 ## Benchmarking the Intel Core i7
 
