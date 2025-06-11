@@ -7,6 +7,7 @@ tags:
   - risc-v
 date: 2025-06-02
 weight: "10"
+draft:
 ---
 This is the first chapter of the book. I divided my thoughts and summary into four sections:
 - **Foundations & The Eight Great Ideas**  
