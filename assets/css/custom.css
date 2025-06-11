@@ -1,0 +1,41 @@
+mjx-container[jax="CHTML"][display="true"] {
+  padding: 1em;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+
+/* assets/css/custom.css */
+.flexible-table {
+  width: 100%;
+  overflow-x: auto;       /* allow horizontal scroll if needed */
+}
+
+.flexible-table table {
+  display: block;         /* so we can scroll it */
+  min-width: 100%;        /* try to fill the container */
+  width: auto;            /* shrink/grow to content */
+}
+
+.flexible-table thead,
+.flexible-table tbody {
+  display: block;         /* separate thead/tbody for scrolling */
+}
+
+.flexible-table tr {
+  display: flex;          /* make each row a flex container */
+}
+
+.flexible-table th,
+.flexible-table td {
+  flex: 1 1 0;            /* all cells share space equally */
+  min-width: 0;           /* allow them to shrink below their content width */
+  padding: 0.5em;         /* optional spacing */
+  word-break: break-word; /* wrap long words/URLs */
+  box-sizing: border-box; /* include padding in width calculations */
+}
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif !important;
+  font-size: 13pt;
+}

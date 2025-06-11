@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer_architecture on Cloudian</title>
+    <link>http://localhost:1313/tags/computer_architecture/</link>
+    <description>Recent content in Computer_architecture on Cloudian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Connie</copyright>
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/computer_architecture/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Part 1: Foundations &amp; “Eight Great Ideas”</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-1/</guid>
+      <description>Preface # The preface starts with a motivation to read this book - professionals of every computing specialty should understand both hardware and software. This point was emphasized when the authors mentioned the switch from uniprocessor to multicore microprocessors (which will be emphasized many more times throughout Chapter 1).</description>
+      
+    </item>
+    
+    <item>
+      <title>Part 2: Inside the Machine – Abstraction Layers &amp; Technologies</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-2/</guid>
+      <description>Below Your Program # For computers to run complex applications, there needs to be some sort of translation. Computers can only run simple operations; if we were to write the program for example for this website (although a simple application) - we need so much effort and time.</description>
+      
+    </item>
+    
+    <item>
+      <title>Part 3: Performance, Power &amp; the “Sea Change”</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-3/</guid>
+      <description>Performance # When you are choosing a computer, how should you choose? Is it the computer that performs operations the fastest, one that does the most work, or the one that consumes least power?</description>
+      
+    </item>
+    
+    <item>
+      <title>Part 4: Real-World Examples &amp; Wrap-Up</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-4/</guid>
+      <description>Benchmarking the Intel Core i7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other? Whichever computer that completes the task faster is the better computer.</description>
+      
+    </item>
+    
+    <item>
+      <title>Chapter 1 - Computer Abstractions and Technology</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/</link>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/</guid>
+      <description>This is the first chapter of the book. I divided my thoughts and summary into four sections:
+Foundations &amp;amp; The Eight Great Ideas
+Covers the motivation behind studying computer architecture, the shift from uniprocessor to multicore systems, and introduces eight timeless design principles that shape computing systems—such as abstraction, pipelining, parallelism, and memory hierarchy.</description>
+      
+    </item>
+    
+    <item>
+      <title>Computer Organization and Design RISC-V edition</title>
+      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/</guid>
+      <description>As part of my internship, I decided to read &amp;ldquo;Computer Organization and Design RISC-V edition&amp;rdquo; by David A. Patterson and John L. Hennessy by recommendation from my supervisor Sanka.
+I have written a series of articles as a reference for later to quickly remind myself of the ideas discussed and also, express my thoughts for the book.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

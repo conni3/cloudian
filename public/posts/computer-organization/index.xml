@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Organization on Cloudian</title>
+    <link>http://localhost:1313/posts/computer-organization/</link>
+    <description>Recent content in Computer Organization on Cloudian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Connie</copyright>
+    <lastBuildDate>Fri, 30 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/computer-organization/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/computer-organization/notes/mips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/mips/</guid>
+      <description>MIPS (Microprocessor without Interlocked Pipeline Stages)
+a classic RISC (Reduced Instruction Set Computer) architecture simplicity, efficiency, and ease of pipelining. clean, regular instruction formats five-stage pipeline found in embedded devices where intruction set is nearly invisible, so it is hard to find a computer to download and run mips programs</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/computer-organization/notes/sequential-access-memories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/notes/sequential-access-memories/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
