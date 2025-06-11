@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-1/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-1/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-2/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-2/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-3/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-3/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-4/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-4/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-5/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-5/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-4/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-4/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-3/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-3/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-2/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-2/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/</loc>
     <lastmod>2025-06-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -55,7 +55,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/</loc>
     <lastmod>2025-05-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -91,12 +91,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/mips/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/computer-organization/notes/sequential-access-memories/</loc>
+    <loc>http://localhost:1313/posts/computer-organization/mips/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -121,6 +116,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/posts/computer-organization/sequential-access-memories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/posts/digital-logic-circuits/sram/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -132,6 +132,11 @@
   </url>
   <url>
     <loc>http://localhost:1313/posts/learning-logs/week-3/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/learning-logs/week-4/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

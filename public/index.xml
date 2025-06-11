@@ -11,40 +11,40 @@
     
     <item>
       <title>Part 1: Foundations &amp; “Eight Great Ideas”</title>
-      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-1/</link>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-1/</guid>
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-1/</guid>
       <description>Preface # The preface starts with a motivation to read this book - professionals of every computing specialty should understand both hardware and software. This point was emphasized when the authors mentioned the switch from uniprocessor to multicore microprocessors (which will be emphasized many more times throughout Chapter 1).</description>
       
     </item>
     
     <item>
       <title>Part 2: Inside the Machine – Abstraction Layers &amp; Technologies</title>
-      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-2/</link>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-2/</guid>
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-2/</guid>
       <description>Below Your Program # For computers to run complex applications, there needs to be some sort of translation. Computers can only run simple operations; if we were to write the program for example for this website (although a simple application) - we need so much effort and time.</description>
       
     </item>
     
     <item>
       <title>Part 3: Performance, Power &amp; the “Sea Change”</title>
-      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-3/</link>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-3/</guid>
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-3/</guid>
       <description>Performance # When you are choosing a computer, how should you choose? Is it the computer that performs operations the fastest, one that does the most work, or the one that consumes least power?</description>
       
     </item>
     
     <item>
       <title>Part 4: Real-World Examples &amp; Wrap-Up</title>
-      <link>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-4/</link>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/computer-organization/notes/patterson--hennessy-2020/chapter-1/part-4/</guid>
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-4/</guid>
       <description>Benchmarking the Intel Core i7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other? Whichever computer that completes the task faster is the better computer.</description>
       
     </item>
@@ -81,22 +81,12 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/computer-organization/notes/mips/</link>
+      <link>http://localhost:1313/posts/computer-organization/mips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/computer-organization/notes/mips/</guid>
+      <guid>http://localhost:1313/posts/computer-organization/mips/</guid>
       <description>MIPS (Microprocessor without Interlocked Pipeline Stages)
 a classic RISC (Reduced Instruction Set Computer) architecture simplicity, efficiency, and ease of pipelining. clean, regular instruction formats five-stage pipeline found in embedded devices where intruction set is nearly invisible, so it is hard to find a computer to download and run mips programs</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/computer-organization/notes/sequential-access-memories/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/computer-organization/notes/sequential-access-memories/</guid>
-      <description></description>
       
     </item>
     
@@ -127,6 +117,16 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/luts/</guid>
       <description>Definition # Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs. Then depending on the input, FPGA looks up from the table and output that result.</description>
+      
+    </item>
+    
+    <item>
+      <title>Sequential access memories</title>
+      <link>http://localhost:1313/posts/computer-organization/sequential-access-memories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/sequential-access-memories/</guid>
+      <description></description>
       
     </item>
     
@@ -192,6 +192,16 @@ direct interface with CPU at speeds not attainable by DRAMs replace DRAMs in sys
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 4</title>
+      <link>http://localhost:1313/posts/learning-logs/week-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-4/</guid>
+      <description>📅 Monday, June 9 # Moving from Hall 2 to Hall 4 📅 Monday, June 2 # Finish writing the chapter 1 arcticles (Patterson and Hennessy) Read about Chapter 1, 2, and 4 from Sarah L.</description>
       
     </item>
     

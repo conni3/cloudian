@@ -11,21 +11,21 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/computer-organization/notes/mips/</link>
+      <link>http://localhost:1313/posts/computer-organization/mips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/computer-organization/notes/mips/</guid>
+      <guid>http://localhost:1313/posts/computer-organization/mips/</guid>
       <description>MIPS (Microprocessor without Interlocked Pipeline Stages)
 a classic RISC (Reduced Instruction Set Computer) architecture simplicity, efficiency, and ease of pipelining. clean, regular instruction formats five-stage pipeline found in embedded devices where intruction set is nearly invisible, so it is hard to find a computer to download and run mips programs</description>
       
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/posts/computer-organization/notes/sequential-access-memories/</link>
+      <title>Sequential access memories</title>
+      <link>http://localhost:1313/posts/computer-organization/sequential-access-memories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/computer-organization/notes/sequential-access-memories/</guid>
+      <guid>http://localhost:1313/posts/computer-organization/sequential-access-memories/</guid>
       <description></description>
       
     </item>

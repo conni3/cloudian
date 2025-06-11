@@ -73,5 +73,15 @@
       
     </item>
     
+    <item>
+      <title>Week 4</title>
+      <link>http://localhost:1313/posts/learning-logs/week-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-4/</guid>
+      <description>📅 Monday, June 9 # Moving from Hall 2 to Hall 4 📅 Monday, June 2 # Finish writing the chapter 1 arcticles (Patterson and Hennessy) Read about Chapter 1, 2, and 4 from Sarah L.</description>
+      
+    </item>
+    
   </channel>
 </rss>
