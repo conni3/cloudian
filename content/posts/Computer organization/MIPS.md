@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 ---
 MIPS (Microprocessor without Interlocked Pipeline Stages) 
 
