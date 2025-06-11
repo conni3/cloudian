@@ -14,4 +14,5 @@ showTableOfContents: true
 
 The architecture of FPGAs rely heavily on Configuration Logic Blocks (CLBs). When you look at it, it is essentially a matrix of these CLBs, wired together by the device's programmable interconnects.
 
-It cons
+It consists of [LUTs](/posts/luts/), FFs (D-flip flop) and a MUX. 
+

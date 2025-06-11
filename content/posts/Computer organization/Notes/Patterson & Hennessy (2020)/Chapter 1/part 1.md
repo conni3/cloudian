@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Part 1: Foundations & “Eight Great Ideas”"
 tags:
   - computer_architecture

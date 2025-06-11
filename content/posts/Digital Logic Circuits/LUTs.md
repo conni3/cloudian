@@ -6,9 +6,6 @@ tags:
   - theory
   - digital_logic
 ---
-
-{{< katex >}}
-
 ### Definition
 Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs. Then depending on the input, FPGA looks up from the table and output that result.
 
