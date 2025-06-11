@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="prose mx-auto">
+  <h1>All Topics</h1>
+  {{ range .Site.Sections }}
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <ul>
+      {{ range first 5 .Pages.ByDate.Reverse }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+      {{ if gt (len .Pages) 5 }}<li><a href="{{ .Permalink }}">…more</a></li>{{ end }}
+    </ul>
+  {{ end }}
+</div>
+{{ end }}

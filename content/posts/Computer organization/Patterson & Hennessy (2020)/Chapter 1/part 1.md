@@ -39,7 +39,7 @@ It is often easier to make the common case faster than the rare case. And simple
 
 Parallelism is heavily mentioned in the book (at least in the introduction and the first chapter). Idea is more people working on something, the faster it will be. 
 
-One noteworthy thing is the idea of parallelism came when scaling a single processor (by packing more transistors to it) reached its limits (due to constraints we will explore in [here](/posts/computer-organization/notes/patterson--hennessy-2020/part-3the-power-wall/))
+One noteworthy thing is the idea of parallelism came when scaling a single processor (by packing more transistors to it) reached its limits (due to constraints we will explore in [here](/posts/computer-organization/patterson--hennessy-2020/part-3the-power-wall/))
 
 ### Performance via Pipelining
 

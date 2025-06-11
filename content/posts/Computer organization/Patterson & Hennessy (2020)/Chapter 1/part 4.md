@@ -14,7 +14,7 @@ draft: false
 
 If you had 2 computers, how would you know one of them performed better than the other? Whichever computer that completes the task faster is the better computer. But to make it a fair competition, you would have to see which one performs better on the same **workload**.
 
-The various programs used to test the performance is called **benchmarks**. As mentioned in "[The 8 Great Ideas in Computer Architecture](/posts/computer-organization/notes/patterson--hennessy-2020/part-1/)", to make the **common case** fast, we need to know what the common case is.
+The various programs used to test the performance is called **benchmarks**. As mentioned in "[The 8 Great Ideas in Computer Architecture](/posts/computer-organization/patterson--hennessy-2020/part-1/)", to make the **common case** fast, we need to know what the common case is.
 
 One benchmark introduced by computer vendors is *System Performance Evaluation Cooperative* (**SPEC**). It has 12 integer benchmarks and 17 floating point benchmarks. 
 

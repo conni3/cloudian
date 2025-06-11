@@ -11,7 +11,7 @@ draft:
 
 ## Below Your Program
 
-For computers to run complex applications, there needs to be some sort of translation. Computers can only run simple operations; if we were to write the program for example for this website (although a simple application) - we need so much effort and time. This is the idea of [abstraction](/posts/computer-organization/notes/patterson--hennessy-2020/part-1abstraction/).
+For computers to run complex applications, there needs to be some sort of translation. Computers can only run simple operations; if we were to write the program for example for this website (although a simple application) - we need so much effort and time. This is the idea of [abstraction](/posts/computer-organization/patterson--hennessy-2020/part-1abstraction/).
 
 There must be some way to convert these high level operations to a low level one. *Usually, the bridge between hardware and application software (like this website) is called the **systems software***. Although, even for application softwares, we have different layers.
 
@@ -28,7 +28,7 @@ An **OS** (like Linux, iOS, and Windows) *interfaces between user program and ha
 
 ___
 
-**Compilers** *translate high level languages like C++ or Java to instructions*. We talk about this here but [Chapter 2](/posts/computer-organization/notes/patterson--hennessy-2020/postspostscomputer-organizationnotespatterson--hennessy-2020chapter-2index/) explores this topic more.
+**Compilers** *translate high level languages like C++ or Java to instructions*. We talk about this here but [Chapter 2](/posts/computer-organization/patterson--hennessy-2020/postspostscomputer-organizationpatterson--hennessy-2020chapter-2index/) explores this topic more.
 
 Compilers convert english like high level languages, say `A + B` to assembly language, `add A, B`. Assembler then convert this to binary or bits which is the alphabet that computers use. They also improve programmer productivity and be independent of the computer they were developed. 
 
@@ -61,24 +61,24 @@ The small L-shaped board next to the metal frame is the **integrated circuits**,
 
 >"The processor logically comprises two main components: datapath and control, the **respective brawn and brain of the processor**" *(Patterson and Hennessy, 2018, p.74)*
 
-**Datapath** is responsible for the arithmetic operations and control **manages** what the other components (input, output, datapath and memory) do according to the instructions. This is explored more in [Chapter 4](/posts/computer-organization/notes/patterson--hennessy-2020/postspostscomputer-organizationnotespatterson--hennessy-2020chapter-4index/).
+**Datapath** is responsible for the arithmetic operations and control **manages** what the other components (input, output, datapath and memory) do according to the instructions. This is explored more in [Chapter 4](/posts/computer-organization/patterson--hennessy-2020/postspostscomputer-organizationpatterson--hennessy-2020chapter-4index/).
 
 Here, **instruction set architecture (ISA)** is formally defined: a <u>bridge between hardware and software</u> where *low level systems functions are handled and hidden away* from application programmers. **ISA** along with **OS** is called the **application binary interface (IBA)**.
 
 ___
 
-**Memory** is where the programs and data needed by the programs are stored while they are running. It is built from multiple **DRAM** chips. DRAM stands for dynamic RAM, where RAM means data is accessible in O(1) time as opposed to [sequential access memories](/posts/computer-organization/notes/patterson--hennessy-2020/sequential-access-memories/).
+**Memory** is where the programs and data needed by the programs are stored while they are running. It is built from multiple **DRAM** chips. DRAM stands for dynamic RAM, where RAM means data is accessible in O(1) time as opposed to [sequential access memories](/posts/computer-organization/patterson--hennessy-2020/sequential-access-memories/).
 
 In the processor, there is another type of memory called SRAM. It is a temprorary memory used for **caching** - a memory where frequently used data is stored. Caches are always checked before accessing the main memory.
 
 But **SRAMs and DRAMs are volatile** - meaning once the computer is powered off, all data is lost. The solution to that is **nonvolatile memory technology**. To help distinguish we call the memory while program is running (SRAMs and DRAMs) the **main/primary memory** and nonvolatile/permanent memory the **secondary memory**.
 
-Although magnetic disks dominated the secondary memory scene, nowadays we use **flash memory**. It is even replacing **DRAMs** in PMDs due to being much cheaper in addition to being nonvolatile. Memory is discussed more in [Chapter 5](/posts/computer-organization/notes/patterson--hennessy-2020/postspostscomputer-organizationnotespatterson--hennessy-2020chapter-5index/).
+Although magnetic disks dominated the secondary memory scene, nowadays we use **flash memory**. It is even replacing **DRAMs** in PMDs due to being much cheaper in addition to being nonvolatile. Memory is discussed more in [Chapter 5](/posts/computer-organization/patterson--hennessy-2020/postspostscomputer-organizationpatterson--hennessy-2020chapter-5index/).
 
 The last part of this section discusses communication or computer networks and introduced more key concepts like LANs and WANs.
 ## Technologies for Building Processors and Memory
 
-This is where we discuss **transistors** - an electrical component that makes up all our computing devices. We discuss properties of transistors in a different article, but what we need to know right now is that it is **a switch that has 2 states: on an off and is controlled by current.** They are combined to make memory, logic gates, etc. (You can check out how transistors are used to make SRAM [here](/posts/computer-organization/notes/patterson--hennessy-2020/bistable-flip-flop/).)
+This is where we discuss **transistors** - an electrical component that makes up all our computing devices. We discuss properties of transistors in a different article, but what we need to know right now is that it is **a switch that has 2 states: on an off and is controlled by current.** They are combined to make memory, logic gates, etc. (You can check out how transistors are used to make SRAM [here](/posts/computer-organization/patterson--hennessy-2020/bistable-flip-flop/).)
 
 The technology used in computers first started with a vacuum tube in 1951, but after transistors were made in 1965, we saw an exponential increase. The evolution afterwards is **integrated circuit, very large-scale integrated circuit (VLSI), and ultra large-scale integrated circuit (ULSI)**.
 

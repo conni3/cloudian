@@ -143,7 +143,7 @@ This section was one of my favorites. As the title suggest, the authors talked a
 
 	It was emphasized a lot during performance section, that we should use clock rate, instruction count and CPI to evaluate. <u>Skipping one or two factors is a common pitfall</u>.
 
-	**Authors brought in another alternative (performance metric) to time - MIPS or Millions of Instructions Per Second**. This should not be confused with [MIPS](/posts/computer-organization/notes/patterson--hennessy-2020/mips/) (Microprocessor without Interlocked Pipeline Stages). 
+	**Authors brought in another alternative (performance metric) to time - MIPS or Millions of Instructions Per Second**. This should not be confused with [MIPS](/posts/computer-organization/patterson--hennessy-2020/mips/) (Microprocessor without Interlocked Pipeline Stages). 
 
 	MIPS is program execution rate, meaning higher the number, the faster the computer. But there are 3 problems with MIPS:
 	1. Since MIPS only cares about the numbers and **does not take account of CPI**, it cannot  be used to compare computers with <u>different instruction sets</u>.
