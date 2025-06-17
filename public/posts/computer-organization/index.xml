@@ -11,12 +11,22 @@
     
     <item>
       <title></title>
+      <link>http://localhost:1313/posts/computer-organization/access-bus-protocol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/access-bus-protocol/</guid>
+      <description>ABMA</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://localhost:1313/posts/computer-organization/mips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/computer-organization/mips/</guid>
       <description>MIPS (Microprocessor without Interlocked Pipeline Stages)
-a classic RISC (Reduced Instruction Set Computer) architecture simplicity, efficiency, and ease of pipelining. clean, regular instruction formats five-stage pipeline found in embedded devices where intruction set is nearly invisible, so it is hard to find a computer to download and run mips programs</description>
+a classic RISC (Reduced Instruction Set Computer) architecture simplicity, efficiency, and ease of pipelining.</description>
       
     </item>
     

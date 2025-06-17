@@ -10,12 +10,22 @@
     <atom:link href="http://localhost:1313/tags/digital_logic/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>555 Timers</title>
+      <link>http://localhost:1313/posts/digital-logic-circuits/555-timers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/digital-logic-circuits/555-timers/</guid>
+      <description>Definition # 555 timers is the most beloved and used integrated circuits, used mainly for timing and waveform generation.</description>
+      
+    </item>
+    
+    <item>
       <title>Bi-stable Flip Flop</title>
       <link>http://localhost:1313/posts/digital-logic-circuits/bistable-flip-flop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/bistable-flip-flop/</guid>
-      <description>At the heart of an SRAM cell lies a bistable flip-flop, which is a circuit capable of holding one of two stable states: logic &amp;lsquo;0&amp;rsquo; or logic &amp;lsquo;1&amp;rsquo;. This flip-flop is typically constructed using two cross-coupled inverters</description>
+      <description>At the heart of an SRAM cell lies a bistable flip-flop, which is a circuit capable of holding one of two stable states: logic &amp;lsquo;0&amp;rsquo; or logic &amp;lsquo;1&amp;rsquo;.</description>
       
     </item>
     
@@ -25,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/clb/</guid>
-      <description>The architecture of FPGAs rely heavily on Configuration Logic Blocks (CLBs). When you look at it, it is essentially a matrix of these CLBs, wired together by the device&amp;rsquo;s programmable interconnects.</description>
+      <description>The architecture of FPGAs rely heavily on Configuration Logic Blocks (CLBs).</description>
       
     </item>
     
@@ -35,7 +45,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/luts/</guid>
-      <description>Definition # Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs. Then depending on the input, FPGA looks up from the table and output that result.</description>
+      <description>Definition # Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs.</description>
       
     </item>
     
@@ -45,8 +55,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/sram/</guid>
-      <description>SRAMs are static memory. They are implemented using 6 transistors usually and because of that more expensive. Fills 2 needs:
-direct interface with CPU at speeds not attainable by DRAMs replace DRAMs in systems with very low power consumption In 1st use, SRAM serves as cache memory, interfacing between DRAMs and the CPU For 2nd use, SRAM is used instead of DRAM.</description>
+      <description>SRAMs are static memory. They are implemented using 6 transistors usually and because of that more expensive.</description>
       
     </item>
     

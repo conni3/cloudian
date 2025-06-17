@@ -1,0 +1,36 @@
+{{ define "home/topic-tree" }}
+  {{ $section := . }}
+  <div class="mx-auto max-w-7xl px-4 py-6">
+    <div class="flex justify-between items-center mb-6">
+      <h2 class="text-2xl font-extrabold">
+        <a href="{{ $section.Permalink }}" class="hover:underline">{{ $section.Title }}</a>
+      </h2>
+      <div>
+        <a href="{{ $section.Permalink }}">
+          <button class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
+            Show more in {{ $section.Title }}
+          </button>
+        </a>
+      </div>
+    </div>
+
+    {{/* Collect articles: direct pages + one-level subfolder pages */}}
+    {{ $all := slice }}
+    {{ range $p := $section.RegularPages }}
+      {{ $all = $all | append $p }}
+    {{ end }}
+    {{ range $sub := $section.Sections }}
+      {{ range $p2 := $sub.RegularPages }}
+        {{ $all = $all | append $p2 }}
+      {{ end }}
+    {{ end }}
+    {{ $sorted := sort $all "Date" "desc" }}
+
+    {{/* Render the combined list with topic-card-view partial */}}
+    {{ partial "recent-articles/topic-card-view" (dict
+      "pages"     $sorted
+      "title"     $section.Title
+      "permalink" $section.Permalink
+    ) }}
+  </div>
+{{ end }}

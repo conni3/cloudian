@@ -9,6 +9,7 @@ defaultBackgroundImage  = "cover.png"
 enableSearch            = true
 enableCodeCopy          = true
 
+
 [params]
   mainSections         = ["posts"]
   math = true
@@ -24,10 +25,10 @@ enableCodeCopy          = true
   showScrollToTop     = true
 
 [homepage]
-  layout              = "background"
+  layout              = "custom"
   homepageImage       = "cover.png"
-  showRecent          = true
-  showRecentItems     = 9
+  showRecent          = false
+  showRecentItems     = 3
   showMoreLink        = true
   showMoreLinkDest    = "/posts"
   cardView            = true

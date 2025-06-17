@@ -55,7 +55,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/learning-logs/week-2/</guid>
-      <description>Week 2 Learning Log (May 26–30, 2025) # 1. Objectives # HDL Implementation &amp;amp; Simulation Implement and simulate the following combinational primitives: 4-bit Subtractor (subtractor4.v) 2-to-1 Multiplexer (mux2to1.v) 4-to-1 Multiplexer (mux4to1.</description>
+      <description>Week 2 Learning Log (May 26–30, 2025) # 1. Objectives # HDL Implementation &amp;amp; Simulation Implement and simulate the following combinational primitives: 4-bit Subtractor (subtractor4.</description>
       
     </item>
     
@@ -65,41 +65,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/learning-logs/week-3/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Week 3 Learning Log (June 2–6, 2025) 
-    &lt;div id=&#34;week-3-learning-log-june-26-2025&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#week-3-learning-log-june-26-2025&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-
-
-&lt;h3 class=&#34;relative group&#34;&gt;1. Objectives 
-    &lt;div id=&#34;1-objectives&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#1-objectives&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ALU Implementation &amp;amp; Testing&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Design a simple 4-bit ALU using Vivado IP Integrator arithmetic blocks (&lt;code&gt;alu_bd.v&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Verify functionality via testbench and hardware simulation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;FPGA Design Flow&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;Meet with Sanka to review end-to-end FPGA design flow (synthesis, implementation, place-and-route)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing</description>
       
     </item>
     

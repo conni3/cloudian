@@ -1,0 +1,13 @@
+{{/*
+  File: layouts/partials/recent-articles/topic-card-view.html
+  ----------------------------------------------------------------------------
+  Renders a responsive 3-column card grid for a given pages context,
+  reusing Blowfish’s article-link/card.html.
+  Expects dict with "pages" (Pages), "title", and "permalink".
+*/}}
+{{ $recent := or .Site.Params.homepage.showRecentItems 3 }}
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3 mb-8">
+  {{ range first $recent .pages }}
+    {{ partial "article-link/card.html" . }}
+  {{ end }}
+</section>

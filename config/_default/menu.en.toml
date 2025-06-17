@@ -12,16 +12,9 @@
 
 
 [[main]]
-  name = "Computer organization"
-  pageRef = "posts/Computer organization"
+  name = "Posts"
+  pageRef = "posts"
   weight = 20
-  parent = "Posts"
-
-[[main]]
-  name = "Digital Logic Circuits"
-  pageRef = "posts/Digital Logic Circuits"
-  weight = 20
-  parent = "Posts"
 
 [[main]]
   name = "Tags"

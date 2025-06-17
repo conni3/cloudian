@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RVSvKit - RISC V System Verilog Kit on Cloudian</title>
+    <link>http://localhost:1313/posts/rvsvkit/</link>
+    <description>Recent content in RVSvKit - RISC V System Verilog Kit on Cloudian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Connie</copyright>
+    <atom:link href="http://localhost:1313/posts/rvsvkit/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>07-contributing-and-versioning</title>
+      <link>http://localhost:1313/posts/rvsvkit/07-contributing-and-versioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/rvsvkit/07-contributing-and-versioning/</guid>
+      <description>Contributing &amp;amp; Versioning # This document outlines how to contribute to RVSvKit, our branching and release policies, and our roadmap for future enhancements.</description>
+      
+    </item>
+    
+    <item>
+      <title>06-automation-optimization</title>
+      <link>http://localhost:1313/posts/rvsvkit/06-automation-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/rvsvkit/06-automation-optimization/</guid>
+      <description>Automation &amp;amp; Optimization # This document describes the scaffolding tools, CI/CD automation, parameter sweeps, RTL optimization guidelines, and static-analysis reporting for RVSvKit, consistent with Overview and Module Inventory.</description>
+      
+    </item>
+    
+    <item>
+      <title>05-ci-and-testing</title>
+      <link>http://localhost:1313/posts/rvsvkit/05-ci-and-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/rvsvkit/05-ci-and-testing/</guid>
+      <description>CI &amp;amp; Testing # This document defines the continuous-integration pipelines, smoke synthesis, functional regression, benchmarking, and gating thresholds for RVSvKit, consistent with the Overview and Module Inventory.</description>
+      
+    </item>
+    
+    <item>
+      <title>04-packages-and-interfaces</title>
+      <link>http://localhost:1313/posts/rvsvkit/04-packages-and-interfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/rvsvkit/04-packages-and-interfaces/</guid>
+      <description>Packages &amp;amp; Interfaces # This document outlines the shared packages and bus-interface abstractions for RVSvKit, consistent with the Overview and Module Inventory.</description>
+      
+    </item>
+    
+    <item>
+      <title>03-coding-conventions</title>
+      <link>http://localhost:1313/posts/rvsvkit/03-coding-conventions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/rvsvkit/03-coding-conventions/</guid>
+      <description>Coding Conventions # This guide defines the SystemVerilog style and naming rules for RVSvKit, ensuring consistency with the Overview and Module Inventory.</description>
+      
+    </item>
+    
+    <item>
+      <title>02-module-inventory</title>
+      <link>http://localhost:1313/posts/rvsvkit/02-module-inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/rvsvkit/02-module-inventory/</guid>
+      <description>Module Inventory # This document catalogs every leaf RTL block under modules/.</description>
+      
+    </item>
+    
+    <item>
+      <title>01-overview</title>
+      <link>http://localhost:1313/posts/rvsvkit/01-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/rvsvkit/01-overview/</guid>
+      <description>Overview # Welcome to RVSvKit, a lightweight, parameterized SystemVerilog library for building RISC-V–style pipelines and peripherals.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

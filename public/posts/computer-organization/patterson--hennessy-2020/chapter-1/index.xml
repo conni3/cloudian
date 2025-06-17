@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 1 - Computer Abstractions and Technology on Cloudian</title>
+    <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/</link>
+    <description>Recent content in Chapter 1 - Computer Abstractions and Technology on Cloudian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Connie</copyright>
+    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Part 1: Foundations &amp; “Eight Great Ideas”</title>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-1/</guid>
+      <description>Preface # The preface starts with a motivation to read this book - professionals of every computing specialty should understand both hardware and software.</description>
+      
+    </item>
+    
+    <item>
+      <title>Part 2: Inside the Machine – Abstraction Layers &amp; Technologies</title>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-2/</guid>
+      <description>Below Your Program # For computers to run complex applications, there needs to be some sort of translation.</description>
+      
+    </item>
+    
+    <item>
+      <title>Part 3: Performance, Power &amp; the “Sea Change”</title>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-3/</guid>
+      <description>Performance # When you are choosing a computer, how should you choose?</description>
+      
+    </item>
+    
+    <item>
+      <title>Part 4: Real-World Examples &amp; Wrap-Up</title>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-4/</guid>
+      <description>Benchmarking the Intel Core i7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other?</description>
+      
+    </item>
+    
+  </channel>
+</rss>

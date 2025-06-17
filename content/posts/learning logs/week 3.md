@@ -13,7 +13,6 @@ summary:
   - Verify functionality via testbench and hardware simulation
 - **FPGA Design Flow**  
   - Meet with Sanka to review end-to-end FPGA design flow (synthesis, implementation, place-and-route)
-<!--more-->
 
 - **Reading & Blogging**  
   - Read **Patterson & Hennessy, Chapter 1 (“Computer Abstractions and Technology”)**  

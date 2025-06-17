@@ -1,0 +1,52 @@
+{{/*
+  File: layouts/partials/home/custom.html
+  ----------------------------------------------------------------------------
+  Custom homepage: background hero + main-topic sections showing both subfolders as cards and direct articles.
+*/}}
+{{ partial "home/background.html" . }}
+
+{{/* Fetch the "posts" section */}}
+{{ $postsSection := .Site.GetPage "section" "posts" }}
+
+{{ if not $postsSection }}
+  <div class="text-red-500 p-4">
+    <strong>ERROR:</strong> 'posts' section not found. Ensure content/posts/_index.md exists.
+  </div>
+{{ else }}
+  {{/* Loop first-level topics */}}
+  {{ range $topic := $postsSection.Sections }}
+    <div class="mx-auto max-w-7xl px-4 py-6">
+      {{/* Topic heading + show more */}}
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-2xl font-extrabold">
+          <a href="{{ $topic.Permalink }}" class="hover:underline">{{ $topic.Title }}</a>
+        </h2>
+        <a href="{{ $topic.Permalink }}">
+          <button class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
+            Show more
+          </button>
+        </a>
+      </div>
+
+      {{/* Build combined items: first subfolders as index pages, then direct articles */}}
+      {{ $items := slice }}
+      {{/* Add subfolder index pages */}}
+      {{ range $sub := $topic.Sections }}
+        {{ $items = $items | append $sub }}
+      {{ end }}
+      {{/* Add direct article pages */}}
+      {{ range $p := $topic.RegularPages.ByDate.Reverse }}
+        {{ $items = $items | append $p }}
+      {{ end }}
+      {{/* Sort combined items by Date desc */}}
+      {{ $items = sort $items "Date" "desc" }}
+
+      {{/* Render the first N items as cards */}}
+      {{ partial "recent-articles/topic-card-view" (dict
+        "pages"     (first (or .Site.Params.homepage.showRecentItems 3) $items)
+        "title"     $topic.Title
+        "permalink" $topic.Permalink
+      ) }}
+    </div>
+  {{ end }}
+{{ end }}
