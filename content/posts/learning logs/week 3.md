@@ -4,7 +4,8 @@ tags:
   - learning_log
 title: Week 3
 showSummary: true
-summary:
+summary: 
+date: 2025-06-06
 ---
 ## Week 3 Learning Log (June 2–6, 2025)
 ### 1. Objectives

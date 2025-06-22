@@ -1,0 +1,13 @@
+<div class="toc mb-8" class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+  <h2 class="text-xl font-semibold mb-4">On this page</h2>
+  <ul class="list-disc ml-4 space-y-1">
+  {{ $posts := .Site.GetPage "section" "posts" }}
+  {{ range $topic := $posts.Sections }}
+    <li>
+      <a href="#{{ $topic.Title | urlize }}" class="hover:underline">
+        {{ $topic.Title }}
+      </a>
+    </li>
+  {{ end }}
+  </ul>
+</div>

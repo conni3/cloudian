@@ -7,7 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Connie</copyright>
-    <lastBuildDate>Tue, 20 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/learning_log/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/learning_log/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning Logs</title>
+      <link>http://localhost:1313/posts/learning-logs/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/</guid>
+      <description>This is where I will update my daily progress and activities.</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 5</title>
+      <link>http://localhost:1313/posts/learning-logs/week-5/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-5/</guid>
+      <description>Week 5 Learning Log (June 16–20, 2025) # 1. Objectives # Library Documentation</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 4</title>
+      <link>http://localhost:1313/posts/learning-logs/week-4/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-4/</guid>
+      <description>Week 4 Learning Log (June 9–13, 2025) # 1. Objectives # Literature Review &amp;amp; Blogging</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 3</title>
+      <link>http://localhost:1313/posts/learning-logs/week-3/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-3/</guid>
+      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 2</title>
+      <link>http://localhost:1313/posts/learning-logs/week-2/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-2/</guid>
+      <description>Week 2 Learning Log (May 26–30, 2025) # 1. Objectives # HDL Implementation &amp;amp; Simulation Implement and simulate the following combinational primitives: 4-bit Subtractor (subtractor4.</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 1</title>
+      <link>http://localhost:1313/posts/learning-logs/week-1/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-1/</guid>
+      <description>Week 1 Learning Log (May 19–23, 2025) # 1. Objectives # FPGA Architecture &amp;amp; Tools Understand FPGA internal architecture: CLBs (LUTs, muxes, flip-flops), on-chip SRAM/Block RAM Install and configure Vivado/Vitis 2022.</description>
+      
+    </item>
     
     <item>
       <title>Internship Timeline</title>
@@ -26,46 +86,6 @@
     
 &lt;/h2&gt;
 &lt;p&gt;I am passionate about forging a career in research and innovation within computer engineering. This internship offers a unique opportunity to translate my theoretical knowledge into hands-on expertise by designing and building a processor from the ground up.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Learning Logs</title>
-      <link>http://localhost:1313/posts/learning-logs/</link>
-      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning-logs/</guid>
-      <description>This is where I will update my daily progress and activities.</description>
-      
-    </item>
-    
-    <item>
-      <title>Week 1</title>
-      <link>http://localhost:1313/posts/learning-logs/week-1/</link>
-      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning-logs/week-1/</guid>
-      <description>Week 1 Learning Log (May 19–23, 2025) # 1. Objectives # FPGA Architecture &amp;amp; Tools Understand FPGA internal architecture: CLBs (LUTs, muxes, flip-flops), on-chip SRAM/Block RAM Install and configure Vivado/Vitis 2022.</description>
-      
-    </item>
-    
-    <item>
-      <title>Week 2</title>
-      <link>http://localhost:1313/posts/learning-logs/week-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning-logs/week-2/</guid>
-      <description>Week 2 Learning Log (May 26–30, 2025) # 1. Objectives # HDL Implementation &amp;amp; Simulation Implement and simulate the following combinational primitives: 4-bit Subtractor (subtractor4.</description>
-      
-    </item>
-    
-    <item>
-      <title>Week 3</title>
-      <link>http://localhost:1313/posts/learning-logs/week-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning-logs/week-3/</guid>
-      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing</description>
       
     </item>
     

@@ -1,6 +1,6 @@
 # -- Theme Options --
 colorScheme             = "marvel"
-defaultAppearance       = "dark"
+defaultAppearance       = "light"
 autoSwitchAppearance    = true
 
 # Global defaults
@@ -16,7 +16,7 @@ enableCodeCopy          = true
 
 
 [header]
-  layout              = "basic"
+  layout              = "fixed"
 
 [footer]
   showCopyright       = true
@@ -34,6 +34,7 @@ enableCodeCopy          = true
   cardView            = true
   cardViewScreenWidth = false
   layoutBackgroundBlur= true
+  showTableOfContents = true
 
 [article]
   showHero            = true

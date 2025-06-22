@@ -1,0 +1,48 @@
+---
+draft: true
+---
+- [x] **Clone & bootstrap**
+  - `git clone` + initialize any submodules
+  - Install prerequisites: Verilator ≥4.x, Icarus Verilog, Docker & Vivado 2023.2+
+- [ ] **Run first build & test**: `make ci-verilator` and `make ci-icarus`
+- [x] **Scaffold new code**
+  - `scripts/scaffold_module.py` → module skeletons under `modules/<category>/<name>/`
+  - `scripts/scaffold_pkg.py` → package stubs under `common/pkg/`
+- [ ] **Implement initial RTL blocks**: Fill out directories per the Module Inventory (e.g. `half_adder`, `adder`, `multiplier`, …)
+- [ ] **Enforce coding conventions**
+  - File/module naming, indentation, `always_ff`/`always_comb`, case-statement style, etc.
+  - Directory layout: `modules/<cat>/<block>/src/...`, `.../tb/...`
+- [ ] **Define packages & interfaces**
+  - Populate `common/pkg/` with `<name>_pkg.sv`
+  - Create `protocols/<bus>/interface/<bus>_if.sv` + adapters in `protocols/<bus>/adapters/`
+  - Follow field-mapping tables and handshake semantics
+- [ ] **Write testbenches**
+  - Per-module TBs under `modules/**/tb/`
+  - Interface/adapters TBs under `protocols/**/tb/`
+  - Use shared assertions in `common/utils/assertions.sv`
+- [ ] **Set up CI pipelines**
+  - `ci/verilator.yml` (lint+sim)
+  - `ci/icarus.yml` (TB runs)
+  - `ci/vivado_docker.yml` (nightly smoke synth)
+  - Configure thresholds in `ci/thresholds.json`
+- [ ] **Add smoke-synth wrappers**: Quick-synth benches under `ci/smoke/` for each module
+- [ ] **Benchmark logging & trends**
+  - Update CSVs in `ci/benchmarks/` on resource-usage changes
+  - Use `scripts/sweep_params.py` to automate sweeps and populate those CSVs
+- [ ] **Automate scheduled tasks**
+  - Weekly STA on `examples/simple_soc`
+  - Daily Docker CVE scan
+  - Future: auto-tuner integration for Pareto sweeps
+- [ ] **Versioning & releases**
+  - Follow branch model (`main`, `feature/*`, `hotfix/*`)
+  - Bump `common_pkg` header version, add CHANGELOG entry
+  - Release checklist: CI pass, changelog, `git tag vX.Y.Z`, publish notes
+- [ ] **Contributing guidelines**
+  - Draft `CONTRIBUTING.md` with issue/PR templates
+  - Disable external PRs until v1.0.0
+- [ ] **Documentation polish**
+  - Cross-link `01-overview`, `02-module-inventory`, `03-coding-conventions`, etc.
+  - Add badges (build, coverage, synth metrics) to `README.md`
+- [ ] **Examples & tutorials**
+  - Flesh out `examples/simple_soc` demo
+  - Write step-by-step guides in `docs/`

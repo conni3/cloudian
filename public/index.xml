@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Connie</copyright>
-    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Part 1: Foundations &amp; “Eight Great Ideas”</title>
@@ -120,6 +120,56 @@
     </item>
     
     <item>
+      <title>Week 5</title>
+      <link>http://localhost:1313/posts/learning-logs/week-5/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-5/</guid>
+      <description>Week 5 Learning Log (June 16–20, 2025) # 1. Objectives # Library Documentation</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 4</title>
+      <link>http://localhost:1313/posts/learning-logs/week-4/</link>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-4/</guid>
+      <description>Week 4 Learning Log (June 9–13, 2025) # 1. Objectives # Literature Review &amp;amp; Blogging</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 3</title>
+      <link>http://localhost:1313/posts/learning-logs/week-3/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-3/</guid>
+      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 2</title>
+      <link>http://localhost:1313/posts/learning-logs/week-2/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-2/</guid>
+      <description>Week 2 Learning Log (May 26–30, 2025) # 1. Objectives # HDL Implementation &amp;amp; Simulation Implement and simulate the following combinational primitives: 4-bit Subtractor (subtractor4.</description>
+      
+    </item>
+    
+    <item>
+      <title>Week 1</title>
+      <link>http://localhost:1313/posts/learning-logs/week-1/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-1/</guid>
+      <description>Week 1 Learning Log (May 19–23, 2025) # 1. Objectives # FPGA Architecture &amp;amp; Tools Understand FPGA internal architecture: CLBs (LUTs, muxes, flip-flops), on-chip SRAM/Block RAM Install and configure Vivado/Vitis 2022.</description>
+      
+    </item>
+    
+    <item>
       <title>Internship Timeline</title>
       <link>http://localhost:1313/posts/internship-timeline/</link>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
@@ -136,16 +186,6 @@
     
 &lt;/h2&gt;
 &lt;p&gt;I am passionate about forging a career in research and innovation within computer engineering. This internship offers a unique opportunity to translate my theoretical knowledge into hands-on expertise by designing and building a processor from the ground up.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Week 1</title>
-      <link>http://localhost:1313/posts/learning-logs/week-1/</link>
-      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning-logs/week-1/</guid>
-      <description>Week 1 Learning Log (May 19–23, 2025) # 1. Objectives # FPGA Architecture &amp;amp; Tools Understand FPGA internal architecture: CLBs (LUTs, muxes, flip-flops), on-chip SRAM/Block RAM Install and configure Vivado/Vitis 2022.</description>
       
     </item>
     
@@ -172,11 +212,11 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
     
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/learning-logs/week-5/</link>
+      <link>http://localhost:1313/posts/rvsvkit/progress/to-do/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/learning-logs/week-5/</guid>
-      <description> Monday, 16 June # </description>
+      <guid>http://localhost:1313/posts/rvsvkit/progress/to-do/</guid>
+      <description>Clone &amp;amp; bootstrap git clone + initialize any submodules Install prerequisites: Verilator ≥4.</description>
       
     </item>
     
@@ -211,6 +251,26 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
     </item>
     
     <item>
+      <title>Data Types</title>
+      <link>http://localhost:1313/posts/system-verilog/data-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/data-types/</guid>
+      <description>Nets Nets</description>
+      
+    </item>
+    
+    <item>
+      <title>draft</title>
+      <link>http://localhost:1313/posts/system-verilog/confused-topics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/confused-topics/</guid>
+      <description>ports getting and passing parameters fork ... join definition of: non-zero simulation-time constructs ] so you can only choose output&amp;rsquo;s type (whether variable or net)</description>
+      
+    </item>
+    
+    <item>
       <title>DSP slices</title>
       <link>http://localhost:1313/posts/digital-logic-circuits/dsp-slices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -227,6 +287,37 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/luts/</guid>
       <description>Definition # Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs.</description>
+      
+    </item>
+    
+    <item>
+      <title>Nets</title>
+      <link>http://localhost:1313/posts/system-verilog/nets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/nets/</guid>
+      <description>Nets model physical connections between drivers. When you have multiple drivers</description>
+      
+    </item>
+    
+    <item>
+      <title>Ports</title>
+      <link>http://localhost:1313/posts/system-verilog/ports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/ports/</guid>
+      <description>Every module or interface exposes a list of ports - points of connection where signal, handshakes or buses flow in and out.</description>
+      
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>http://localhost:1313/posts/system-verilog/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/roadmap/</guid>
+      <description>Language Basics
+1.1. Lexical conventions: identifiers, comments (//, /*…*/), white space</description>
       
     </item>
     
@@ -251,42 +342,22 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
     </item>
     
     <item>
+      <title>Tasks vs Functions</title>
+      <link>http://localhost:1313/posts/system-verilog/tasks-vs-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/tasks-vs-functions/</guid>
+      <description>Both functions and tasks are subroutines that are reusable RTL or testbench codes.</description>
+      
+    </item>
+    
+    <item>
       <title>Understanding verilog</title>
       <link>http://localhost:1313/posts/digital-logic-circuits/verilog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/verilog/</guid>
       <description>Tips to Understand Verilog Code Faster # ✅ 1. Simulate mentally in time steps # Ask yourself:</description>
-      
-    </item>
-    
-    <item>
-      <title>Week 2</title>
-      <link>http://localhost:1313/posts/learning-logs/week-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning-logs/week-2/</guid>
-      <description>Week 2 Learning Log (May 26–30, 2025) # 1. Objectives # HDL Implementation &amp;amp; Simulation Implement and simulate the following combinational primitives: 4-bit Subtractor (subtractor4.</description>
-      
-    </item>
-    
-    <item>
-      <title>Week 3</title>
-      <link>http://localhost:1313/posts/learning-logs/week-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning-logs/week-3/</guid>
-      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing</description>
-      
-    </item>
-    
-    <item>
-      <title>Week 4</title>
-      <link>http://localhost:1313/posts/learning-logs/week-4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning-logs/week-4/</guid>
-      <description>📅 Monday, June 9 # Moving from Hall 2 to Hall 4 📅 Tuesday, June 2 # Finish writing the chapter 1 arcticles (Patterson and Hennessy) Read about Chapter 1, 2, and 4 from Sarah L.</description>
       
     </item>
     

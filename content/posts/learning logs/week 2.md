@@ -1,7 +1,7 @@
 ---
 title: Week 2
 draft: false
-date: 2025-05-39
+date: 2025-05-30
 showHeadingAnchors: true
 showTableOfContents: true
 tags:
