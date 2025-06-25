@@ -1,6 +1,6 @@
 # -- Theme Options --
 colorScheme             = "marvel"
-defaultAppearance       = "light"
+defaultAppearance       = "dark"
 autoSwitchAppearance    = true
 
 # Global defaults
