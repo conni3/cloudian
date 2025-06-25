@@ -9,5 +9,15 @@
     <copyright>© 2025 Connie</copyright>
     <atom:link href="http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-2/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Part 1: Introduction</title>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-2/part-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-2/part-1/</guid>
+      <description>The book uses top-down method, where they start from a notation that resembles some low level programming language and break it down until it is using the language of a real computer.</description>
+      
+    </item>
+    
   </channel>
 </rss>

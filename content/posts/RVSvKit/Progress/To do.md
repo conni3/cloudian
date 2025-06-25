@@ -11,7 +11,7 @@ draft: true
 - [ ] **Implement initial RTL blocks**: Fill out directories per the Module Inventory (e.g. `half_adder`, `adder`, `multiplier`, …)
 - [ ] **Enforce coding conventions**
   - File/module naming, indentation, `always_ff`/`always_comb`, case-statement style, etc.
-  - Directory layout: `modules/<cat>/<block>/src/...`, `.../tb/...`
+  - Directory layout: `modules/<cat>/<block>/src/…`, `…/tb/…`
 - [ ] **Define packages & interfaces**
   - Populate `common/pkg/` with `<name>_pkg.sv`
   - Create `protocols/<bus>/interface/<bus>_if.sv` + adapters in `protocols/<bus>/adapters/`

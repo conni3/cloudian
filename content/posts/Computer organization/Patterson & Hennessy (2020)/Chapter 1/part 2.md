@@ -11,7 +11,7 @@ draft:
 
 ## Below Your Program
 
-For computers to run complex applications, there needs to be some sort of translation. Computers can only run simple operations; if we were to write the program for example for this website (although a simple application) - we need so much effort and time. This is the idea of [abstraction](/posts/computer-organization/patterson--hennessy-2020/part-1abstraction/).
+For computers to run complex applications, there needs to be some sort of translation. Computers can only run simple operations; if we were to write the program for example for this website (although a simple application) - we need so much effort and time. This is the idea of [abstraction](/posts/computer-organization/patterson--hennessy-2020/postspostscomputer-organizationpatterson--hennessy-2020chapter-1part-1abstraction/).
 
 There must be some way to convert these high level operations to a low level one. *Usually, the bridge between hardware and application software (like this website) is called the **systems software***. Although, even for application softwares, we have different layers.
 
@@ -22,6 +22,7 @@ ___
 But let's get back to **systems software**. There are many types of systems software, but **OS (operating system)** and **compiler** are central to every system.
 
 An **OS** (like Linux, iOS, and Windows) *interfaces between user program and hardware*. Some of its functions are:
+
 - Managing input/output operations
 - Allocating storage and memory
 - Ensuring safe, concurrent use of the computer by multiple applications through protected sharing.
@@ -37,7 +38,6 @@ Compilers convert english like high level languages, say `A + B` to assembly lan
 Now this part is the bulk of this article. We take a look at the 5 classic components: **input, output, memory, datapath and control**. Datapath and control are sometimes combined to form the **processor**.
 
 ![](/images/Pasted%20image%2020250605105713.png)
-
 
 This is a figure from the book. The control sends signals that determine the operations of memory, datapath and input, output. This is what the book refers to as the "BIG PICTURE". It is a nice way to visualize computer organization because all computers follow this structure.
 
@@ -55,7 +55,7 @@ Image is represented as a matrix of bits, 8 bits for each color, and that matrix
 Nowadays, touch screens are replacing normal displays. One common way to implement a touch screen is to use capacitive sensing. Since, people are electrical conductors, transparent conductor is also placed over the glass. And touching distorts the field, changing capacitance. 
 
 ___
-#### <u>Datapath and Control:</u>
+#### <u>Datapath And Control:</u>
 
 The small L-shaped board next to the metal frame is the **integrated circuits**, more commonly called the **chips**. This contains the memory and the processor.
 
@@ -76,13 +76,14 @@ But **SRAMs and DRAMs are volatile** - meaning once the computer is powered off,
 Although magnetic disks dominated the secondary memory scene, nowadays we use **flash memory**. It is even replacing **DRAMs** in PMDs due to being much cheaper in addition to being nonvolatile. Memory is discussed more in [Chapter 5](/posts/computer-organization/patterson--hennessy-2020/postspostscomputer-organizationpatterson--hennessy-2020chapter-5index/).
 
 The last part of this section discusses communication or computer networks and introduced more key concepts like LANs and WANs.
+
 ## Technologies for Building Processors and Memory
 
 This is where we discuss **transistors** - an electrical component that makes up all our computing devices. We discuss properties of transistors in a different article, but what we need to know right now is that it is **a switch that has 2 states: on an off and is controlled by current.** They are combined to make memory, logic gates, etc. (You can check out how transistors are used to make SRAM [here](/posts/computer-organization/patterson--hennessy-2020/bistable-flip-flop/).)
 
 The technology used in computers first started with a vacuum tube in 1951, but after transistors were made in 1965, we saw an exponential increase. The evolution afterwards is **integrated circuit, very large-scale integrated circuit (VLSI), and ultra large-scale integrated circuit (ULSI)**.
 
-#### How are they actually made?
+#### How Are They Actually Made?
 
 To make these circuits or chips, we start with a **silicon wafer**—a thin, flat slice of pure crystal. The idea is to draw your design onto the wafer using **photolithography**, which is kind of like shining light through a stencil to print patterns. The wafer is coated with light-sensitive material, and then a mask (the stencil) is used to shine UV light and “draw” the circuit. After this, we go through a cycle of adding material (like metal or insulators), removing parts we don’t need (etching), and modifying the silicon itself (called doping) to give it the right properties.
 
@@ -94,7 +95,8 @@ ___
 > 
 > Thank you for reading this, and special thanks to the authors of the book. Please check out other articles! 😇
 
-
 ___
+
 References:
+
 Hennessy, J. L., & Patterson, D. A. (2018). _Computer Organization and Design: RISC-V Edition_ (2nd ed.). Morgan Kaufmann/Elsevier.

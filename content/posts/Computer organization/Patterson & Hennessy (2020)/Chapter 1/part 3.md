@@ -17,6 +17,7 @@ In data centers where they have a lot of jobs submitted by many users, they woul
 For us, individual users, we want to reduce the **response time or the execution time** - the time from start of a program to the end of a program. 
 
 $$ \text{Performance} = \frac{1}{Execution \space time} $$
+
 From the math equation, we see that the smaller the execution time is, the higher the performance. 
 
 Now, let's look at how we can determine the execution time. But first, let's understand what is the execution time. **We call this wall clock time, response time, or elapse time. It measures the total time for a task: disk accesses + memory accesses + i/o activities + operating system overhead.**
@@ -31,13 +32,14 @@ In many applications, they also rely on I/O performance. So we need to clearly d
 
 We should measure the total elapsed time first and then measure individual times to find where the bottleneck is. 
 
-### CPU execution time
+### CPU Execution time
 
 There is a concept introduced here: clock cycle (or **tick, clock tick, clock period, clock cycle**). It is a discrete time that relates or measures how fast basic functions are executed.
 
 The inverse is called **clock rate** and the relationship between the cycles for a program and cycle time can be summarized by the formulas below.
 
 $$ \text{CPU execution time} = \text{CPU clock cycles for a program} \times \text{Clock cycle time} $$
+
 $$ \text{CPU execution time} = \frac{\text{CPU clock cycles for a program}}{ \text{Clock rate}} $$
 
 We can see that to reduce execution time, we can either decrease the number of cycles for a program or increase the clock rate. However, we **need to make sure decreasing the number of cycles don't increase the clock rate or decreasing the clock rate doesn't increase the number of cycles**.
@@ -51,6 +53,7 @@ $$ \text{CPU clock cycles} = \text{Instructions for a program} \times \text{Aver
 The **average clock cycles per instruction** is abbreviated as **CPI**. Since **CPI** is different for different instructions, we take the average of all instructions executed in the program. **CPI** gives us a way to compare different **ISA** for the same program.
 
 Now, we can combine the concepts and have the "classic CPU performance equation":
+
 $$
 \text{CPU time} = \frac{\text{Instruction count}\times \text{CPI}}{\text{Clock rate}}
 $$
@@ -60,6 +63,7 @@ By default, we would know what the clock rate would be and we would know CPU tim
 Hardware can actually measure a variety of records, such as the number of instructions, average CPI, and even the sources of performance loss. This is the most reliable way because usually CPI depends on a lot of design choices: memory system and processor structure, as well as the program.
 
 Here is some components that affect the CPU performance:
+
 - **Algorithm**
 	They determine the number of instructions as well as the type of instructions. For example, an algorithm that has more divides will have higher CPI.
 - **Programming language**
@@ -70,6 +74,7 @@ Here is some components that affect the CPU performance:
 	- Affects all three aspect - instruction count, cpi and clock rate.
 
 Traditionally, clock rate is fixed but some processors like Intel i7 temporarily increases the clock rate until the chip gets too warm.
+
 ## The Power Wall
 
 Over the last 30 years, the clock rate and power increased rapidly but declined in the last few years due to one problem - the Power Wall. **This comes from the inability to cool common microprocessors**. Of course, there are ways to better cool the chips but it is an expensive solution and therefore - **not scalable**.
@@ -79,7 +84,9 @@ In the post-PC era, there is another problem with power. **The devices are porta
 CMOS is the transistor that we use for integrated circuits. It's main energy consumption is the energy that requires it to switch from 0 to 1 and vice versa - what we call **dynamic energy**. The dynamic energy depends on the capacitive load and voltage applied. 
 
 $$ \text{Dynamic Energy} \space \alpha \space 1/2 \times  \text{Capacitive load} \times Voltage^2 $$
+
 $$ \text{Power} \space \alpha \space 1/2 \times  \text{Capacitive load} \times Voltage^2 \times \text{Frequency switched}$$
+
 Here, the capacitive load is a function of the fanout (number of transistors connected to output) and the technology. It determines the capacitance of both the wires and transistors.
 
 In the last 30 years, clock rate grew by 1000 degrees while power consumption grew by only 30. That is because over the years, the voltage supplied decreased from 5V to 1V, and since power is proportional to voltage squared, we have such stark difference in increase.
@@ -87,6 +94,7 @@ In the last 30 years, clock rate grew by 1000 degrees while power consumption gr
 So, why can't we keep decreasing the voltage? The problem with that is it will make the transistors too leaky. Today, 40% of power consumption is due to leakage.
 
 Now that we have hit the power wall, people are now focusing on different ways to make the processor more efficient.
+
 ## The Sea Change
 
 Because we couldn't improve due to Power Wall, the architects decided to ship microprocessors instead of trying to improve the performance of a single processor. The microprocessors contain multiple processors - called core in this case to avoid confusion. For example, quad microprocessors have 4 cores.
@@ -96,7 +104,6 @@ Previously, programs could increase in efficiency without a line of code being c
 One way to use parallelism is **pipelining**, an **instruction level parallelism**. While parallelism was a very big stepping stone to get over power wall, there are so many reasons why it is a tool that must be handled carefully.
 
 1. It is performance programming. Most of the systems we have (especially legacy ones like banking) are not built on parallel programming, and the effort to make them is very expensive (much more expensive than having more servers) that it is better for them to just write sequential programs.
-
 2. For the program to make use of parallelism, it must divide the work equally, which might have some overhead that completely offsets the performance gained by parallelism. <br> To take advantage of parallelism, we need:
 	-  **Scheduling**: Each core must have something to do at the same time.
 	- **Load balancing**: If one core takes too long, the others would be waiting and the benefits would be gone. So, we need to divide the work in terms of load (how long it will take), not the number of jobs.
@@ -115,14 +122,15 @@ Computing elements in parallel (ex: multiplying two vectors)
 <u>3. Chapter 4: Parallelism via Instructions</u>
 
 Pipelining and Prediction
+
 ## Fallacies and Pitfalls
 
 This section was one of my favorites. As the title suggest, the authors talked about fallacies - common misconceptions (**conceptual or theoretical**) and pitfalls - easily made mistakes (**practical or implementation-related**). 
 
 1. **Overall improvement of the computer will be proportional to the improvement made on one aspect**
-	
+
 	Here, another concept was introduced - <u>Amdahl's Law</u>. **Amdahl’s Law** says that the benefit of improving one part of a system—like making multiplication faster—is limited by how often that part is actually used. 
-	
+
 	Even a big speedup won’t help much if it’s only used occasionally. This reflects the idea of diminishing returns: the more you optimize something that isn’t used often, the less overall impact it has.
 
 	 So the bottleneck of the program becomes the part that we didn't optimize.
@@ -146,6 +154,7 @@ This section was one of my favorites. As the title suggest, the authors talked a
 	**Authors brought in another alternative (performance metric) to time - MIPS or Millions of Instructions Per Second**. This should not be confused with [MIPS](/posts/computer-organization/patterson--hennessy-2020/mips/) (Microprocessor without Interlocked Pipeline Stages). 
 
 	MIPS is program execution rate, meaning higher the number, the faster the computer. But there are 3 problems with MIPS:
+
 	1. Since MIPS only cares about the numbers and **does not take account of CPI**, it cannot  be used to compare computers with <u>different instruction sets</u>.
 	2. MIPS varies from program to program, so we must use multiple MIPS. Figure 1.18 from the book: ![](/images/Pasted%20image%2020250603170410.png)
 	3. Program execution time varies independently of MIPS. If one program has more instructions but each instruction is faster, MIPS is different but independent of actual performance.
@@ -155,6 +164,7 @@ This section was one of my favorites. As the title suggest, the authors talked a
 ```
 
 ___
+
 References:
 
 Hennessy, J. L., & Patterson, D. A. (2018). _Computer Organization and Design: RISC-V Edition_ (2nd ed.). Morgan Kaufmann/Elsevier.

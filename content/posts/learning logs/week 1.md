@@ -15,9 +15,9 @@ showHeadingAnchors: true
   - Install and configure Vivado/Vitis 2022.2 on Windows  
 - **HDL Implementation & Simulation**  
   - Implement and simulate basic arithmetic primitives:  
-    - Half Adder (`half_adder.v`)  
-    - Full Adder (`full_adder.v`)  
-    - 4-bit Ripple Carry Adder (`prop_adder.v`)  
+	- Half Adder (`half_adder.v`)  
+	- Full Adder (`full_adder.v`)  
+	- 4-bit Ripple Carry Adder (`prop_adder.v`)  
 - **Reading & Documentation**  
   - Read and reviewed Combinational Logic lectures from EE2000
   - Draft concise write-ups on SRAM cell operation, bistable flip-flops, and LUT fundamentals 
@@ -43,7 +43,7 @@ showHeadingAnchors: true
 #### 📅 Wednesday, May 21
 - **Half Adder Implementation**  
   - Wrote `half_adder.v`:  
-    ```verilog
+	```verilog
     module half_adder (input  a, b,
                        output sum, carry);
       assign sum   = a ^ b;
@@ -60,7 +60,7 @@ showHeadingAnchors: true
 - **Full Adder & 4-bit Ripple Carry Adder**  
   - Imported `half_adder.v` into a new Vivado RTL project.  
   - Developed `full_adder.v` by cascading two half-adders plus an OR gate:  
-    ```verilog
+	```verilog
     module full_adder (input  a, b, cin,
                        output sum, cout);
       wire s1, c1, c2;
@@ -80,15 +80,15 @@ showHeadingAnchors: true
 - **Synthesis & Resource Analysis**  
   - Ran synthesis in Vivado for `half_adder.v`, `full_adder.v`, and `prop_adder.v`.  
   - Examined **Utilization Report**:  
-    - Half Adder → 1 LUT, 0 FFs  
-    - Full Adder → 2 LUTs + 1 LUT for OR, 3 FFs  
-    - 4-bit CPA → 4 × (full adder) LUT usage + routing overhead ().  
+	- Half Adder → 1 LUT, 0 FFs  
+	- Full Adder → 2 LUTs + 1 LUT for OR, 3 FFs  
+	- 4-bit CPA → 4 × (full adder) LUT usage + routing overhead ().  
   - Viewed **CLB Mapping**: traced how LUT outputs feed into adjacent CLBs to propagate carry.  
 - **Weekly Documentation**  
   - Wrote three short blog posts:  
-    1. **SRAM Basics:** detailed 6-T cell operation and how LUT/SRAM bits store truth tables.  
-    2. **Bistable Flip-Flops:** explained edge-triggered D-FF operation, asynchronous reset, and how FPGA fabric implements them.  
-    3. **LUT Internals:** described how LUTs map their address bits into SRAM contents to realize arbitrary Boolean functions.  
+	1. **SRAM Basics:** detailed 6-T cell operation and how LUT/SRAM bits store truth tables.  
+	2. **Bistable Flip-Flops:** explained edge-triggered D-FF operation, asynchronous reset, and how FPGA fabric implements them.  
+	3. **LUT Internals:** described how LUTs map their address bits into SRAM contents to realize arbitrary Boolean functions.  
 
 ---
 
@@ -101,11 +101,11 @@ showHeadingAnchors: true
   - Larger on-chip memory blocks consist of arrays of SRAM cells. They are inferred in Verilog via `ram_style = “block”` or instantiated via IP; useful for data storage in larger designs.  
 - **Vivado Flow**  
   - Typical flow:  
-    1. **Project setup** 
-    2. **HDL source & test-bench creation**  
-    3. **Simulation** (XSim behavioral)  
-    4. **Synthesis** → **Implementation** (place & route)  
-    5. **Bitstream generation** → **Programming**  
+	1. **Project setup** 
+	2. **HDL source & test-bench creation**  
+	3. **Simulation** (XSim behavioral)  
+	4. **Synthesis** → **Implementation** (place & route)  
+	5. **Bitstream generation** → **Programming**  
   - Setting up the correct `.xdc` constraint file is crucial before implementation.  
 - **Arithmetic Modules**  
   - **Half Adder:** implemented as `sum = a ^ b`, `carry = a & b`.  

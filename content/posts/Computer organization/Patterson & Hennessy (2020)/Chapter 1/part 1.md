@@ -7,6 +7,8 @@ tags:
   - theory
   - risc-v
 weight: "1"
+aliases: [Preface]
+linter-yaml-title-alias: Preface
 ---
 # Preface
 
@@ -25,16 +27,20 @@ First section of the chapter introduction - gets the reader familiar with classe
 > “Today’s science fiction suggests tomorrow’s killer applications: already on their way are glasses that augment reality, the cashless society, and cars that can drive themselves.”
 
 This was a quote I found interesting and somewhat humorous. The book was written in 2019 and the "science fiction" then now has already become a reality.
-## The 8 great ideas in Computer Architecture
-### Moore's law
+
+## The 8 Great Ideas in Computer Architecture
+### Moore's Law
 
 According to Moore's law, the number of transistors in IC (integrated circuit) will double every 2 years. This has been true over 50 years, although there has been some fluctuations. Therefore, a computer architect should always design their architecture based on how the industry will be when their work is done.
+
 ### Abstraction
 
 Abstraction is another idea that helps hardware and software designers work more efficiently. The main idea is that each layer abstracts away the lower layer, essentially hides them idea. This is done at every level. Even in simple circuit analysis, components and parts of the circuit are replaced with a "box" with input and output.
-### Making the common case fast
+
+### Making the Common case Fast
 
 It is often easier to make the common case faster than the rare case. And simpler to do so too. 
+
 ### Performance via Parallelism
 
 Parallelism is heavily mentioned in the book (at least in the introduction and the first chapter). Idea is more people working on something, the faster it will be. 
@@ -44,9 +50,11 @@ One noteworthy thing is the idea of parallelism came when scaling a single proce
 ### Performance via Pipelining
 
 Pipelining - this can be understood by how a factory works. Every part does one specific thing and then passes it on to another part. At every stage, a single simple action is done. Simpler, repetitive means each step takes smaller time and has less error.
+
 ### Prediction
 
 The quote I really liked was here was "It can be better to ask for forgiveness than to ask for permission, the next great idea is prediction". One of the ideas that helped accelerate computing was prediction - assuming if you make a wrong prediction, you can recover from it with quickly.
+
 ### Memory Hierarchy
 
 Finally, the memory hierarchy. People often think that accessing data on memory takes constant time. And that is the brilliance of what the earlier architects have accomplished. **In reality, memory is composed of multiple types of memory - what we call "the memory hierarchy"**
@@ -58,7 +66,9 @@ It looks like a pyramid. The one at the top is the smallest - faster, more expen
 There are components in a computer that adds dependability (in case of a failure). This is a trade-off in performance, however, makes the system resilient to crashes or data loss.
 
 ___
+
 This is the end of the first part, please read the other parts for the book or any article you find interesting :D
 
 References:
+
 Hennessy, J. L., & Patterson, D. A. (2018). _Computer Organization and Design: RISC-V Edition_ (2nd ed.). Morgan Kaufmann/Elsevier.

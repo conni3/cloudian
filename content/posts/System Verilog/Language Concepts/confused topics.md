@@ -4,11 +4,9 @@ draft: true
 ---
 - ports
 - getting and passing parameters
--  `fork ... join`
+-  `fork … join`
 - definition of: non-zero simulation-time constructs
 - ]
-
-
 
 so you can only choose output's type (whether variable or net)
 

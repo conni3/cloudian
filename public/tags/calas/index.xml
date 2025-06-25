@@ -45,7 +45,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-4/</guid>
-      <description>Benchmarking the Intel Core i7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other?</description>
+      <description>Benchmarking the Intel Core I7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other?</description>
       
     </item>
     
@@ -95,7 +95,7 @@
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/learning-logs/week-3/</guid>
-      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing</description>
+      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing Design a simple 4-bit ALU using Vivado IP Integrator arithmetic blocks (alu_bd.</description>
       
     </item>
     
@@ -145,7 +145,7 @@
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/internship-timeline/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Motivation for the internship: 
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Motivation for the Internship: 
     &lt;div id=&#34;motivation-for-the-internship&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
     &lt;span
@@ -190,6 +190,16 @@
     </item>
     
     <item>
+      <title>Data Type: Nets</title>
+      <link>http://localhost:1313/posts/system-verilog/language-concepts/nets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/language-concepts/nets/</guid>
+      <description>Nets model physical connections between drivers. When you have multiple drivers</description>
+      
+    </item>
+    
+    <item>
       <title>Digital Logic Circuits</title>
       <link>http://localhost:1313/posts/digital-logic-circuits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -206,16 +216,6 @@
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/luts/</guid>
       <description>Definition # Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs.</description>
-      
-    </item>
-    
-    <item>
-      <title>Nets</title>
-      <link>http://localhost:1313/posts/system-verilog/nets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/system-verilog/nets/</guid>
-      <description>Nets model physical connections between drivers. When you have multiple drivers</description>
       
     </item>
     

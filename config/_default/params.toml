@@ -18,6 +18,7 @@ enableCodeCopy          = true
 [header]
   layout              = "fixed"
 
+
 [footer]
   showCopyright       = true
   showThemeAttribution= true

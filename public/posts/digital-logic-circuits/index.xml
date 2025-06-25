@@ -45,7 +45,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/dsp-slices/</guid>
-      <description>dedicated hardware blocks optimized for arithmetic-intensive operations—most notably multiplication and accumulation higher performance and lower power for signal-processing algorithms such as filters, transforms, and dot-products</description>
+      <description>dedicated hardware blocks optimized for arithmetic-intensive operations—most notably multiplication and accumulation</description>
       
     </item>
     
@@ -75,7 +75,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/verilog/</guid>
-      <description>Tips to Understand Verilog Code Faster # ✅ 1. Simulate mentally in time steps # Ask yourself:</description>
+      <description>Tips to Understand Verilog Code Faster # ✅ 1. Simulate Mentally in time steps # Ask yourself:</description>
       
     </item>
     

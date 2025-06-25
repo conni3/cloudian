@@ -13,9 +13,9 @@ tags:
 ### 1. Objectives
 - **HDL Implementation & Simulation**  
   - Implement and simulate the following combinational primitives:  
-    - 4-bit Subtractor (`subtractor4.v`)  
-    - 2-to-1 Multiplexer (`mux2to1.v`)  
-    - 4-to-1 Multiplexer (`mux4to1.v`)  
+	- 4-bit Subtractor (`subtractor4.v`)  
+	- 2-to-1 Multiplexer (`mux2to1.v`)  
+	- 4-to-1 Multiplexer (`mux4to1.v`)  
 - **Toolflow Practice**  
   - Create testbenches to verify each module in XSim  
   - Synthesize all Week 2 designs in Vivado and analyze LUT/CLB usage  
@@ -32,7 +32,7 @@ tags:
 - **4-bit Subtractor (`subtractor4.v`)**  
   - Designed two’s-complement subtractor by inverting B inputs, adding 1 (carry-in) to a 4-bit adder.  
   - Wrote `subtractor4.v`:  
-    ```verilog
+	```verilog
     module subtractor4 (
       input  [3:0] A,
       input  [3:0] B,
@@ -53,15 +53,15 @@ tags:
     endmodule
     ```
   - Created testbench `subtractor4_tb.v` applying A,B pairs:  
-    - (4’b0101 – 4’b0011 = 2)  
-    - (4’b0010 – 4’b0100 = –2)  
-    - (4’b1000 – 4’b1000 = 0), etc.  
+	- (4’b0101 – 4’b0011 = 2)  
+	- (4’b0010 – 4’b0100 = –2)  
+	- (4’b1000 – 4’b1000 = 0), etc.  
   - Simulated in XSim; confirmed correct 4-bit difference and borrow flag.
 
 #### 📅 Tuesday, May 27
 - **2-to-1 Multiplexer (`mux2to1.v`)**  
   - Wrote `mux2to1.v` to select between two 8-bit inputs for practice:  
-    ```verilog
+	```verilog
     module mux2to1 #(
       parameter WIDTH = 8
     )(
@@ -81,7 +81,7 @@ tags:
   - Met with Sanka to go over Verilog syntax nuances: module definitions, `always` blocks, non-blocking vs. blocking assignments, and best practices for naming conventions.
 - **4-to-1 Multiplexer (`mux4to1.v`)**  
   - Extended multiplexer logic to four inputs:  
-    ```verilog
+	```verilog
     module mux4to1 #(
       parameter WIDTH = 8
     )(
@@ -109,19 +109,19 @@ tags:
 - **Synthesis & Resource Analysis**  
   - Added `subtractor4.v`, `mux2to1.v`, and `mux4to1.v` to a Vivado project.  
   - Ran synthesis for each module:  
-    - **Subtractor4** → used ~5 LUTs (4 for each inverted bit & one for adder instrumentation).  
-    - **Mux2to1 (8-bit)** → 8 LUTs (one per bit).  
-    - **Mux4to1 (8-bit)** → ~16 LUTs (2:1 trees or equivalent).  
+	- **Subtractor4** → used ~5 LUTs (4 for each inverted bit & one for adder instrumentation).  
+	- **Mux2to1 (8-bit)** → 8 LUTs (one per bit).  
+	- **Mux4to1 (8-bit)** → ~16 LUTs (2:1 trees or equivalent).  
   - Reviewed **Utilization Reports** and **CLB Mapping** to understand LUT distribution and routing overhead.  
 - **Blog Writing**  
   - Drafted a post: **“Implementing a 4-bit Two’s-Complement Subtractor”** covering:  
-    1. Two’s-complement basics (invert + add 1).  
-    2. Verilog implementation leveraging the existing `prop_adder`.  
-    3. Simulation results and borrow-out interpretation.  
+	1. Two’s-complement basics (invert + add 1).  
+	2. Verilog implementation leveraging the existing `prop_adder`.  
+	3. Simulation results and borrow-out interpretation.  
   - Drafted a post: **“Multiplexer Architectures in FPGA”** covering:  
-    1. 2:1 vs. 4:1 multiplexer logic.  
-    2. LUT-based implementation and resource considerations.  
-    3. Simulation snapshots illustrating glitch-free switching.
+	1. 2:1 vs. 4:1 multiplexer logic.  
+	2. LUT-based implementation and resource considerations.  
+	3. Simulation snapshots illustrating glitch-free switching.
 
 #### 📅 Friday, May 30
 - **Book Access & Reading**  
@@ -144,12 +144,10 @@ tags:
   - Distinction between blocking (`=`) and non-blocking (`<=`) assignments in sequential logic.  
   - Best practices: use clear module port lists, consistent indentation, and meaningful signal names.  
   - Importance of `always @(*)` for purely combinational `case` statements.
-
 - **Resource Utilization**  
   - *Subtractor4* consumed ~5 LUTs + routing.  
   - *Mux2to1 (8-bit)* used 8 LUTs; *Mux4to1 (8-bit)* used ~16 LUTs.  
   - Vivado’s utilization reports help anticipate resource requirements for larger datapaths.
-
 - **Reading Insights**  
   - *Harris & Harris Ch 2–3* emphasize building subtractors via inverter + adder and show LUT-based mux implementations.  
   - *Patterson & Hennessy* clarify how ALU control signals select between operations (ADD vs. SUB, etc.), reinforcing Week 3 FSM control concepts.

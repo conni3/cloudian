@@ -55,7 +55,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-4/</guid>
-      <description>Benchmarking the Intel Core i7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other?</description>
+      <description>Benchmarking the Intel Core I7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other?</description>
       
     </item>
     
@@ -145,7 +145,7 @@
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/learning-logs/week-3/</guid>
-      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing</description>
+      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing Design a simple 4-bit ALU using Vivado IP Integrator arithmetic blocks (alu_bd.</description>
       
     </item>
     
@@ -175,7 +175,7 @@
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/internship-timeline/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Motivation for the internship: 
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Motivation for the Internship: 
     &lt;div id=&#34;motivation-for-the-internship&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
     &lt;span
@@ -207,6 +207,17 @@
       <guid>http://localhost:1313/posts/computer-organization/mips/</guid>
       <description>MIPS (Microprocessor without Interlocked Pipeline Stages)
 a classic RISC (Reduced Instruction Set Computer) architecture simplicity, efficiency, and ease of pipelining.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/learning-logs/week-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-6/</guid>
+      <description>mon, 23 june
+calas meeting changed icarus simulation to use verilator instead, which included: writing sim_main.</description>
       
     </item>
     
@@ -251,22 +262,52 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
     </item>
     
     <item>
-      <title>Data Types</title>
-      <link>http://localhost:1313/posts/system-verilog/data-types/</link>
+      <title>Data Type: Logic</title>
+      <link>http://localhost:1313/posts/system-verilog/language-concepts/logic-data-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/system-verilog/data-types/</guid>
-      <description>Nets Nets</description>
+      <guid>http://localhost:1313/posts/system-verilog/language-concepts/logic-data-type/</guid>
+      <description>SystemVerilog introduces logic as a 4-state data type that can be assigned in initial, always, or always_comb blocks.</description>
+      
+    </item>
+    
+    <item>
+      <title>Data Type: Nets</title>
+      <link>http://localhost:1313/posts/system-verilog/language-concepts/nets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/language-concepts/nets/</guid>
+      <description>Nets model physical connections between drivers. When you have multiple drivers</description>
+      
+    </item>
+    
+    <item>
+      <title>Data Types</title>
+      <link>http://localhost:1313/posts/system-verilog/language-concepts/data-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/language-concepts/data-types/</guid>
+      <description>1. Net Types (4-state, driven by continuous assignments) # wire</description>
+      
+    </item>
+    
+    <item>
+      <title>Debugging a Half-Adder Testbench: A Journey in Four Lessons</title>
+      <link>http://localhost:1313/posts/system-verilog/practical-knowledge/debugging-a-half-adder-testbench/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/practical-knowledge/debugging-a-half-adder-testbench/</guid>
+      <description>When I set out expecting a quick smoke test for my pure combinational half-adder in SystemVerilog, I expected it to be trivial.</description>
       
     </item>
     
     <item>
       <title>draft</title>
-      <link>http://localhost:1313/posts/system-verilog/confused-topics/</link>
+      <link>http://localhost:1313/posts/system-verilog/language-concepts/confused-topics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/system-verilog/confused-topics/</guid>
-      <description>ports getting and passing parameters fork ... join definition of: non-zero simulation-time constructs ] so you can only choose output&amp;rsquo;s type (whether variable or net)</description>
+      <guid>http://localhost:1313/posts/system-verilog/language-concepts/confused-topics/</guid>
+      <description>ports getting and passing parameters fork … join definition of: non-zero simulation-time constructs ] so you can only choose output&amp;rsquo;s type (whether variable or net)</description>
       
     </item>
     
@@ -276,7 +317,7 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/dsp-slices/</guid>
-      <description>dedicated hardware blocks optimized for arithmetic-intensive operations—most notably multiplication and accumulation higher performance and lower power for signal-processing algorithms such as filters, transforms, and dot-products</description>
+      <description>dedicated hardware blocks optimized for arithmetic-intensive operations—most notably multiplication and accumulation</description>
       
     </item>
     
@@ -291,31 +332,31 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
     </item>
     
     <item>
-      <title>Nets</title>
-      <link>http://localhost:1313/posts/system-verilog/nets/</link>
+      <title>Part 1: Introduction</title>
+      <link>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-2/part-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/system-verilog/nets/</guid>
-      <description>Nets model physical connections between drivers. When you have multiple drivers</description>
+      <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-2/part-1/</guid>
+      <description>The book uses top-down method, where they start from a notation that resembles some low level programming language and break it down until it is using the language of a real computer.</description>
       
     </item>
     
     <item>
       <title>Ports</title>
-      <link>http://localhost:1313/posts/system-verilog/ports/</link>
+      <link>http://localhost:1313/posts/system-verilog/language-concepts/ports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/system-verilog/ports/</guid>
+      <guid>http://localhost:1313/posts/system-verilog/language-concepts/ports/</guid>
       <description>Every module or interface exposes a list of ports - points of connection where signal, handshakes or buses flow in and out.</description>
       
     </item>
     
     <item>
       <title>Roadmap</title>
-      <link>http://localhost:1313/posts/system-verilog/roadmap/</link>
+      <link>http://localhost:1313/posts/system-verilog/language-concepts/roadmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/system-verilog/roadmap/</guid>
+      <guid>http://localhost:1313/posts/system-verilog/language-concepts/roadmap/</guid>
       <description>Language Basics
 1.1. Lexical conventions: identifiers, comments (//, /*…*/), white space</description>
       
@@ -343,10 +384,10 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
     
     <item>
       <title>Tasks vs Functions</title>
-      <link>http://localhost:1313/posts/system-verilog/tasks-vs-functions/</link>
+      <link>http://localhost:1313/posts/system-verilog/language-concepts/tasks-vs-functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/system-verilog/tasks-vs-functions/</guid>
+      <guid>http://localhost:1313/posts/system-verilog/language-concepts/tasks-vs-functions/</guid>
       <description>Both functions and tasks are subroutines that are reusable RTL or testbench codes.</description>
       
     </item>
@@ -357,7 +398,7 @@ a classic RISC (Reduced Instruction Set Computer) architecture simplicity, effic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/verilog/</guid>
-      <description>Tips to Understand Verilog Code Faster # ✅ 1. Simulate mentally in time steps # Ask yourself:</description>
+      <description>Tips to Understand Verilog Code Faster # ✅ 1. Simulate Mentally in time steps # Ask yourself:</description>
       
     </item>
     

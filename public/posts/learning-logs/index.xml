@@ -35,7 +35,7 @@
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/learning-logs/week-3/</guid>
-      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing</description>
+      <description>Week 3 Learning Log (June 2–6, 2025) # 1. Objectives # ALU Implementation &amp;amp; Testing Design a simple 4-bit ALU using Vivado IP Integrator arithmetic blocks (alu_bd.</description>
       
     </item>
     
@@ -56,6 +56,17 @@
       
       <guid>http://localhost:1313/posts/learning-logs/week-1/</guid>
       <description>Week 1 Learning Log (May 19–23, 2025) # 1. Objectives # FPGA Architecture &amp;amp; Tools Understand FPGA internal architecture: CLBs (LUTs, muxes, flip-flops), on-chip SRAM/Block RAM Install and configure Vivado/Vitis 2022.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/learning-logs/week-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/learning-logs/week-6/</guid>
+      <description>mon, 23 june
+calas meeting changed icarus simulation to use verilator instead, which included: writing sim_main.</description>
       
     </item>
     

@@ -14,18 +14,25 @@
 [[main]]
   name = "Posts"
   pageRef = "posts"
-  weight = 20
+  weight = 2
 
 [[main]]
   name = "Tags"
   pageRef = "tags"
   weight = 10
 
+
 [[main]]
-  identifier = "github"
-  pre = "link"
-  url = "https://github.com/conni3/"
-  weight = 10
+  name = "CALAS"
+  pageRef = "tags/CALAS"
+  weight = 1
+
+
+[[main]]
+  name = "Learning Logs"
+  pageRef = "posts/Learning Logs"
+  parent = "CALAS"
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

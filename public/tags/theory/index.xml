@@ -45,7 +45,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/computer-organization/patterson--hennessy-2020/chapter-1/part-4/</guid>
-      <description>Benchmarking the Intel Core i7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other?</description>
+      <description>Benchmarking the Intel Core I7 # SPEC CPU Benchmark # If you had 2 computers, how would you know one of them performed better than the other?</description>
       
     </item>
     
@@ -110,6 +110,16 @@
     </item>
     
     <item>
+      <title>Data Type: Nets</title>
+      <link>http://localhost:1313/posts/system-verilog/language-concepts/nets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/system-verilog/language-concepts/nets/</guid>
+      <description>Nets model physical connections between drivers. When you have multiple drivers</description>
+      
+    </item>
+    
+    <item>
       <title>Digital Logic Circuits</title>
       <link>http://localhost:1313/posts/digital-logic-circuits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -126,16 +136,6 @@
       
       <guid>http://localhost:1313/posts/digital-logic-circuits/luts/</guid>
       <description>Definition # Look up table is a memory. Instead of recomputing a circuit or a logic function every time, we compute and store in LUTs.</description>
-      
-    </item>
-    
-    <item>
-      <title>Nets</title>
-      <link>http://localhost:1313/posts/system-verilog/nets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/system-verilog/nets/</guid>
-      <description>Nets model physical connections between drivers. When you have multiple drivers</description>
       
     </item>
     

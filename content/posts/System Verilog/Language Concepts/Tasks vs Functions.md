@@ -1,10 +1,11 @@
 ---
 title: Tasks vs Functions
-showTableOfContents:
+showTableOfContents: true
 ---
+
 Both functions and tasks are subroutines that are reusable RTL or testbench codes.
 
-## Return value and Argument directions
+## Return Value and Argument Directions
 ### Function
 
 - must return a single value, whose function you declare in the header
@@ -17,7 +18,7 @@ Both functions and tasks are subroutines that are reusable RTL or testbench code
 - can have input, output, and inout ports
 - called as a standalone statement `my_task(a,b,c,)`, not inside an expression
 
-## Timing control and simulation time
+## Timing Control and Simulation time
 
 ### Function
 
@@ -26,16 +27,16 @@ Both functions and tasks are subroutines that are reusable RTL or testbench code
 
 ### Task
 
-- can include timing controls, delays, event controls, and even `fork ... join`
+- can include timing controls, delays, event controls, and even `fork … join`
 - useful for driving testbenches or modeling multi-cycle behaviors.
 
-## Usage in RTL vs. testbench
+## Usage in RTL vs. Testbench
 
 - **Functions** are used in small, combinational operations such as checksum, bit-field packing, and arithmetic helpers.
 - **Tasks** are used when you need a sequence of events such as stimulus generation, bus transactions, and waiting for handshakes
 
-## Calling rules and synthesis
-### Functions 
+## Calling Rules and Synthesis
+### Functions
 
 - can be called anywhere an expression is allowed (assign statements, inside procedural blocks, and in parameter calculations)
 - synthesizable if they are zero-time and returns single value.

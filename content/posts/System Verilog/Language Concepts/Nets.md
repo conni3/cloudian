@@ -1,26 +1,32 @@
 ---
-title: Nets
+title: "Data Type: Nets"
 tags:
   - calas
   - system_verilog
   - theory
-draft: true
+draft: false
 ---
 
 Nets model physical connections between drivers. When you have multiple drivers
 
 All net types are inherently **four-state** - each bit can be 0, 1, X (unknown) or Z (high-impedance). This is due to several reasons.
 
+---
+
 Nets have to have more than 2 states (binary values) because they allow multiple drivers. They must allow X and Z states to model un-driven or partially-driven connections. When there are multiple sources (like bus signals or tri-state buffers), there might be a conflict. When there is a conflict the net will have X value and Z if there is no drivers.
 
+---
 ### Floating (Z)
 
 The `z` state specifically refers to **a floating or un-driven condition**—the net is not being actively driven by any source.
 
 When there are multiple drivers:
+
 - If one driver puts `z` and another puts `1`, the result is `1`.
 - If one driver puts `z` and another puts `z`, the result is `z`.
 - If one driver puts `1`, another puts `0`, result is `x` (conflict).
+
+---
 
 ### Contention (X)
 
@@ -37,6 +43,7 @@ B u2(.b(foo));
 // foo sees 1 from A and 0 from B → foo becomes X (conflict)
 ```
 
+---
 #### Contention Resolution
 
 Whenever there is a conflict, simulation uses a table shown below to resolve the conflict:
@@ -47,7 +54,8 @@ Whenever there is a conflict, simulation uses a table shown below to resolve the
 |**1**|**X**|1|**X**|1|
 |**X**|**X**|**X**|**X**|**X**|
 
-## ## Net types
+---
+## Net Types
 
 1. **Basic Nets**
 Wires require one driver or resolves them using wired logic. It simply represents a physical connection.
@@ -56,21 +64,29 @@ Wires require one driver or resolves them using wired logic. It simply represent
 	It is N individual 1-bit nets all bundled under one name. It tells the compiler “I want N separate wires, numbered 0 through N-1".
 	**On an FPGA or ASIC**, each bit of that vector becomes its own metal interconnect (or FPGA routing wire). When you hook a 32-bit bus between two modules, the placer & router will physically lay out 32 parallel tracks.
 
-2. **Pulled Nets:**
+---
+
+1. **Pulled Nets:**
 It is an alias for wire, but used when we expect there to be multiple drivers. It has pull up, which means a default state when there are no drivers.
 - `tri0/tri1`: when undriven, defaults to 0 or 1.
 - `trireg`: - like `wire`, but with an implicit pull-down resistor.
 
-3. **Wired-AND / Wired-OR**
+---
+
+1. **Wired-AND / Wired-OR**
 They are resolved net types. Instead of returning `x` on multiple conflicting drivers, **`wand` and `wor` resolve the multiple drivers using logic rules**:
 - `wand`: **Open-drain**: any driver pulling low causes low output. All must be high (or unconnected) for output to be high.
 - `wor`: **Open-source**: any driver pulling high causes high output. All must be low (or unconnected) for output to be low.
 
-4. **Supply Nets**
+---
+
+1. **Supply Nets**
 - `supply1` models a net tied directly to **Vcc (logic high)**.
 - `supply0` models a net tied directly to **GND (logic low)**.
 
-## Summary table
+---
+## Summary Table
+
 |Net Type|Value Type|4-State?|Multi-Driver?|Default Value|Resolves?|Strength|Typical Use Case|
 |---|---|---|---|---|---|---|---|
 |`wire`|4-state|✅|Yes|`'z` (unconnected)|❌ (x on conflict)|Medium (strong)|General-purpose signal connection|
@@ -84,3 +100,5 @@ They are resolved net types. Instead of returning `x` on multiple conflicting dr
 |`supply1`|constant|❌|N/A|`1`|Constant|Strongest|Connect to Vcc, power modeling|
 |`wand0`|4-state|✅|Yes|`0`|✅ (AND)|Resolved|(Rarely used) wired-AND with default 0|
 |`wor1`|4-state|✅|Yes|`1`|✅ (OR)|Resolved|(Rarely used) wired-OR with default 1|
+
+---

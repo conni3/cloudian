@@ -10,7 +10,6 @@ tags:
 
 555 timers is the most beloved and used integrated circuits, used mainly for timing and waveform generation. It is used in blinking LEDs, PWM, and oscillator circuits. 
 
-
 ## Modes
 
 It is defined as a "**highly stable multivibrator circuit**" - which means it is basically a circuit that can flip between 2 or more voltage stages in a controlled way. It has 3 modes:
@@ -45,10 +44,4 @@ When values change from 1 to 0, the capacitor discharges the value.
 
 **Amplifier**:
 The output of the SR flip flop also connect with an amplifier before going to the output pin.
-
-
-
-
-
-
 
